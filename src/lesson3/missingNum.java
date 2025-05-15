@@ -28,13 +28,13 @@ public class missingNum {
 	
 	}
 
-    public static int missingNum(int [] num, int totalCount)   {
-    int totalSum=totalCount*(totalCount+1)/2;
-    int actualSum=0;
-    for (int i:num)   {
-    actualSum=actualSum+i;	
-    }
-    return totalSum-actualSum;
-    }
+	public static int missingNum(int [] num, int totalCount)   {
+	int totalSum = (totalCount)*(totalCount+1)/2;
+	int actualSum=0;
+	for (int i:num)   {
+	actualSum=actualSum+i;	
+	}
+	return totalSum-actualSum;
+	}
 
 }

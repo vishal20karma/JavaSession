@@ -41,18 +41,18 @@ public class highestFrequency1 {
 	for (int i=0;i<s.length();i++)   {
 	char c = s.charAt(i);	
 	if (hm.containsKey(c) && c!=' ')   {
-	int oldFreq = hm.get(c);
+	int oldFreq = hm.get(c);	
 	int newFreq = oldFreq+1;
 	hm.put(c, newFreq);
 	}
-	else {
-	hm.put(c, 1);	
+	else   {
+	hm.put(c, 1);
 	}
 	}
 	char maxFreq = s.charAt(0);
 	char scndMaxFreq = s.charAt(0);
 	for (Character key:hm.keySet())   {
-	if (hm.get(key)>hm.get(maxFreq))   {	
+	if (hm.get(key)>hm.get(maxFreq))   {
 	maxFreq=key;
 	}
 	else if (hm.get(key)>hm.get(scndMaxFreq) && hm.get(key)<hm.get(maxFreq))   {
@@ -60,7 +60,7 @@ public class highestFrequency1 {
 	}
 	}
 	System.out.println("Max frequency: "+maxFreq);
-	System.out.println("Scond Max frequency: "+scndMaxFreq);
+	System.out.println("Second Max: "+scndMaxFreq);
 	
 	}
 

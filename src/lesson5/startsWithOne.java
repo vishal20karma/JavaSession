@@ -33,8 +33,8 @@ public class startsWithOne {
 		
 //  For Practice
 	int [] number = {67, 1, 12, 23, 21, 10};
-	List<Integer> startsWithOne = getNumberList(number);
-	System.out.println(startsWithOne);
+	List<Integer> startWithOne = getNumberList(number);
+	System.out.println(startWithOne);
 	
 	}
 	
@@ -44,16 +44,15 @@ public class startsWithOne {
 	}
 	return num;
 	}
-
+	
 	public static ArrayList<Integer> getNumberList(int [] number)   {
-    ArrayList<Integer> arl = new ArrayList<Integer>();
+	ArrayList<Integer> arl = new ArrayList<Integer>();	
 	for (int num:number)   {
-	int n = getFirstDigit(num);
+	int n = getFirstDigit(num);	
 	if (n==1)   {
 	arl.add(num);	
 	}
 	}
-	return arl;
+    return arl;
 	}
-
 }

@@ -37,10 +37,10 @@ public class minMaxNumber {
 		
 //  For Practice
 	int a=10;int b=20;int c=30;
-	int mxNum = maxNum(a, b, c);
-	System.out.println(mxNum);
-	int mnNum = minNum(a, b, c);
-	System.out.println(mnNum);
+	int mx = maxNum(a, b, c);
+    System.out.println(mx);
+    int mn = minNum(a, b, c);
+	System.out.println(mn);
 	
 	}
 

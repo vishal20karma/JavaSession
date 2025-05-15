@@ -7,7 +7,7 @@ public class names1k {
 
 //  Printing names 1000 times with Loop
 /*	int count=0;	
-	for (int i=0;i<1000;i++)   {
+	for (int i=1;i<=1000;i++)   {
 	System.out.println("Vishal");	
 	count++;
 	}
@@ -15,7 +15,7 @@ public class names1k {
 	
 //  For Practice
 	int count=0;
-	for (int i=0;i<1000;i++)   {
+	for (int i=1;i<=1000;i++)   {
 	System.out.println("Vishal");
 	count++;
 	}
@@ -38,7 +38,7 @@ public class names1k {
 	s=s.replace("i", "iiiiiiiiii");
 	s=s.replace("i", "iiiiiiiiii");
 	s=s.replace("i", "iiiiiiiiii");
-	s=s.replace("i", name+ "\n");
+	s=s.replace("i", name+"\n");
 	System.out.println(s);
 	
 	System.out.println("********************************");
@@ -59,10 +59,10 @@ public class names1k {
 	names(1, "Vishal");
 	
 	}
-  
+
 	public static void names(int num, String myName)   {
 	if (num<=1000)   {
-	System.out.println(myName);	
+	System.out.println(myName);
 	num++;
 	names(num, myName);
 	}

@@ -15,11 +15,10 @@ public class sumOfAllNum {
 		
 //  For Practice
 	int [] num = {1,5,2,7,8,60,70,100};
-	int sum=0;
-	for (int i:num)   {
-	sum=sum+i;	
-	}
-    System.out.println(sum);
-    
+    int sum=0;
+    for (int i:num)   {
+    sum=sum+i;	
+    }
+	System.out.println(sum);
 	}
 }

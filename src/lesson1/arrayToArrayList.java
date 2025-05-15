@@ -13,17 +13,21 @@ public class arrayToArrayList {
 	for (String s:arrLstNm)   {
 	System.out.println(s);	
 	}
+	
 	System.out.println("**********************************");
+	
 	System.out.println(arrLstNm.contains("Savi"));
 	System.out.println(arrLstNm.contains("Navi"));   */   //After converting Array to ArrayList, then only contains was used
 	
 //  For Practice
 	String [] names = {"Ravi","Kavi","Savi","Lavi","Pavi"};
 	List<String> arrLstNm = Arrays.asList(names);
-	for (String s:arrLstNm)   {
+	for (String s:names)   {
 	System.out.println(s);	
 	}
+	
 	System.out.println("**********************************");
+	
 	System.out.println(arrLstNm.contains("Savi"));
 	System.out.println(arrLstNm.contains("Navi"));
 	

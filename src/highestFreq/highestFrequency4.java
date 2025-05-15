@@ -34,17 +34,17 @@ public class highestFrequency4 {
 	System.out.println("Second Max frequency: "+scndMaxFreq);   */
 		
 //  For Practice
-	String [] s = {"c","java","python","ruby","java","c++","cobol","c","java"};	
+	String [] s = {"c","java","python","ruby","java","c++","cobol","c","java"};
 	HashMap<String, Integer> hm = new HashMap<String, Integer>();
 	for (int i=0;i<s.length;i++)   {
-	String str  = s[i];	
+	String str = s[i];	
 	if (hm.containsKey(str))   {
-	int oldFreq = hm.get(str);	
+	int oldFreq = hm.get(str);
 	int newFreq = oldFreq+1;
 	hm.put(str, newFreq);
 	}
 	else {
-	hm.put(str, 1);
+	hm.put(str, 1);	
 	}
 	}
 	String maxFreq = s[0];
@@ -57,8 +57,8 @@ public class highestFrequency4 {
 	scndMaxFreq=key;	
 	}
 	}
-	System.out.println("Maximum frequency: "+maxFreq);
-	System.out.println("Second Maximum frequency: "+scndMaxFreq);
+	System.out.println("Max frequency: "+maxFreq);
+	System.out.println("Second Max frequency: "+scndMaxFreq);
 	
 	}
 

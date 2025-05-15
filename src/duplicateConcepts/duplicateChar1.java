@@ -36,7 +36,6 @@ public class duplicateChar1 {
 	}
 	if (c[i]!='0' && count>1)   {
 	System.out.println(c[i]+"-"+count+"-"+s.indexOf(c[i]));
-	System.out.println(count);
 	}	
 	}
 	

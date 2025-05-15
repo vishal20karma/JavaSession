@@ -23,18 +23,19 @@ public class ifStringIsInt2 {
 		
 //  For Practice
 	String s = "456";
-	boolean b =stringOrInt(s);
+	boolean b = stringOrInt(s);
 	System.out.println(b);
 	
 	}
-	
-	public static boolean stringOrInt(String s)   {
-	try   {
-	Integer.parseInt(s);
-	return true;
-	}
-	catch (Exception e)   {
-	return false;	
-	}
-	}
+
+    public static boolean stringOrInt(String s)   {
+    try {
+    Integer.parseInt(s);
+    return true;
+    }
+    catch (Exception e) {
+    return false;	
+    }
+    }
+
 }

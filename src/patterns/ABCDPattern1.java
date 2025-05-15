@@ -19,7 +19,7 @@ public class ABCDPattern1 {
 	int alpha=65;
 	String s="";
 	for (int i=0;i<=25;i++)   {
-	s = s+(char)alpha+" ";	
+	s=s+(char)alpha+" ";
 	System.out.println(s);
 	alpha++;
 	}

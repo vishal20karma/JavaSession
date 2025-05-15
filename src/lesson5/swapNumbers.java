@@ -16,7 +16,7 @@ public class swapNumbers {
 		
 //  For Practice
 	int a = 5;
-	int b = 10;
+	int b =10;
 	int temp=a;
 	a=b;
 	b=temp;
@@ -33,8 +33,8 @@ public class swapNumbers {
 	System.out.println("y - "+y);   */
 	
 //  For Practice
-	int x=5;
-	int y=10;
+	int x = 5;
+	int y = 10;
 	x=x+y;
 	y=x-y;
 	x=x-y;

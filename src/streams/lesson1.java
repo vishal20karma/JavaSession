@@ -35,7 +35,7 @@ public class lesson1 {
 
 //  For Practice
     long l1 = a.stream().count();
-	System.out.println(l1);
+    System.out.println(l1);
     
 	System.out.println("********************");
 	

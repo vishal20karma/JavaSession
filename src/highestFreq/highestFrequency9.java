@@ -42,10 +42,10 @@ public class highestFrequency9 {
 	String [] s = {"2abb3", "klbb1", "3hbg22u", "rr2", "3rb2"};
 	HashMap<Character, Integer> hm = new HashMap<Character, Integer>();
 	for (int i=0;i<s.length;i++)   {
-	str = s[i];
+	str = s[i];	
 	for (int j=0;j<str.length();j++)   {
-	char c = str.charAt(j);
-	if (hm.containsKey(c) && Character.isDigit(c))   {   //'Character.isDigit(c)' is used if only Integers need to evaluate, if not used then it will evaluate Integers and Alphabets both. If used with '!' then it will only check for Alphabets
+	char c = str.charAt(j);	
+	if (hm.containsKey(c) && Character.isDigit(c))   {
 	int oldFreq = hm.get(c);
 	int newFreq = oldFreq+1;
 	hm.put(c, newFreq);
@@ -59,14 +59,14 @@ public class highestFrequency9 {
 	char scndMaxFreq = str.charAt(0);
 	for (Character key:hm.keySet())   {
 	if (hm.get(key)>hm.get(maxFreq))   {
-	maxFreq = key;	
+	maxFreq=key;	
 	}
 	else if (hm.get(key)>hm.get(scndMaxFreq) && hm.get(key)<hm.get(maxFreq))   {
-	scndMaxFreq = key;	
+	scndMaxFreq=key;
 	}
 	}
-	System.out.println("Maximum frequency: "+maxFreq);
-	System.out.println("Second Maximum frequency: "+scndMaxFreq);
+	System.out.println("Max frequency: "+maxFreq);
+	System.out.println("Second Max frequency: "+scndMaxFreq);
 	
 	}
 

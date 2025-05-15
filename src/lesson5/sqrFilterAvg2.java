@@ -23,7 +23,7 @@ public class sqrFilterAvg2 {
 			   .mapToDouble(s->s)
 			      .average().getAsDouble();
 	System.out.println(avg);
-	
+		
 	}
 
 }

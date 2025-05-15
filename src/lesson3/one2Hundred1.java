@@ -15,8 +15,8 @@ public class one2Hundred1 {
 	}   */
 	
 //  For Practice
-	int one='x'/'x';
-	String s="**********";
+	int one = 'x'/'x';
+	String s = "**********";
 	for (int i=one;i<=s.length()*s.length();i++)   {
 	System.out.println(i);	
 	}

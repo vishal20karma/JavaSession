@@ -31,7 +31,7 @@ public class duplicateChar3 {
 	System.out.println(ch+" : "+count);
 	}
 	}
-	System.out.println(hs);	
+	System.out.println(hs);
 	
 	}
 

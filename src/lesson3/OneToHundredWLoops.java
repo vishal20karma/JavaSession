@@ -22,12 +22,11 @@ public class OneToHundredWLoops {
     
 	}
 
-    public static void printNum(int num)   {
-    if (num<=100)   {
-    System.out.println(num);
-    num++;
-    printNum(num);
-    }
-    }
-
+	public static void printNum(int num)   {
+	if (num<=100)   {
+	System.out.println(num);
+	num++;
+	printNum(num);
+	}
+	}
 }

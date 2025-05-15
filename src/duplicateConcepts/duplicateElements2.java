@@ -25,10 +25,9 @@ public class duplicateElements2 {
 	int count=1;
 	if (store.add(names)==false)   {
 	count++;
-	System.out.println(names+" : "+count);
+	System.out.println(names+" : "+count);	
 	}
 	}
-	System.out.println(store);
 	
 	}
 

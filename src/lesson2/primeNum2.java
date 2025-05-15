@@ -35,7 +35,7 @@ public class primeNum2 {
 	}
 	else {
 	System.out.println(pNum[i]+" - is NOT a Prime number");	
-	}	
+	}
 	}
 	
 	}

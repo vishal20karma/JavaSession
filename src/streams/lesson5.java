@@ -35,9 +35,8 @@ public class lesson5 {
 	System.out.println(skpFstFive);   */
 	
 //  For Practice	
-	int skpFstFive = num.stream().skip(5).reduce((a,b)->a+b).get();	
+	int skpFstFive = num.stream().skip(5).reduce((a,b)->a+b).get();
 	System.out.println(skpFstFive);
-	
 	}
 
 }

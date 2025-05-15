@@ -42,7 +42,7 @@ public class hashMap2Iterate {
 	while (it.hasNext())   {
 	String key = it.next();	
 	String value = cc.get(key);
-	System.out.println("Key="+value+" : "+"Value="+value);
+	System.out.println("Key="+key+" : "+"Value="+value);
 	}
 	
 	}

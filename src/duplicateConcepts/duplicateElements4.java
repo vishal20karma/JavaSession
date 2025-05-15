@@ -27,15 +27,15 @@ public class duplicateElements4 {
 	
 //  For Practice
 	LinkedHashSet<String> lhs = new LinkedHashSet<String>(al);
-	System.out.println(lhs);
-
+    System.out.println(lhs);
+    
 //  Streams method
 /*	List<String> strList = al.stream().distinct().collect(Collectors.toList());
 	System.out.println(strList);   */
 	
 //  For Practice
-	List<String> strList = al.stream().distinct().collect(Collectors.toList());
-	System.out.println(strList);	
+	List<String> strList = al.stream().distinct().collect(Collectors.toList());	
+	System.out.println(strList);
 	
 	}
 

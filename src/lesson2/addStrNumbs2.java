@@ -35,8 +35,8 @@ public class addStrNumbs2 {
 	int sum=0;
 	for (int i=0;i<str.length;i++)   {
 	String s = str[i];	
-	for (int j=0;j<s.length();j++)   {
-	char c = s.charAt(j);	
+	for (int k=0;k<s.length();k++)   {
+	char c = s.charAt(k);	
 	if (Character.isDigit(c))   {
 	num=num+c;	
 	}
@@ -50,7 +50,7 @@ public class addStrNumbs2 {
 	}
 	if (!num.equals(""))   {
 	sum=sum+Integer.parseInt(num);
-	}	
+	}
 	System.out.println(sum);
 	
 	}

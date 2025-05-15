@@ -32,8 +32,8 @@ public class findLargestNum {
 	smallest=num[i];	
 	}
 	}
-	System.out.println("Largest number: "+largest);
-	System.out.println("Smallest number: "+smallest);
+	System.out.println("Largest number - "+largest);
+	System.out.println("Smallest number - "+smallest);
 	
 	}
 

@@ -14,8 +14,7 @@ public class printAtoZ {
 	for (char ch='A';ch<='Z';ch++)   {
 	System.out.print(ch+" ");	
 	}
-		
-
+	
 	}
 
 }

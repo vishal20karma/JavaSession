@@ -1,4 +1,4 @@
-package overrding;
+package overriding;
 
 public class parent {
 

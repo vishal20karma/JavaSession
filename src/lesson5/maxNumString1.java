@@ -37,7 +37,7 @@ public class maxNumString1 {
 	for (int i=0;i<s.length();i++)   {
 	char c = s.charAt(i);	
 	if (Character.isDigit(c))   {
-	String str = String.valueOf(c);
+	String str = String.valueOf(c);	
 	arl.add(Integer.parseInt(str));
 	}
 	}
@@ -52,8 +52,8 @@ public class maxNumString1 {
 	max=arl.get(j);	
 	}
 	}
-	System.out.println("Min number: "+min);
-	System.out.println("Max number: "+max);
+	System.out.println("Minimum number: "+min);
+	System.out.println("Maximum number: "+max);
 	
 	}    
 }

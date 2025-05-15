@@ -23,7 +23,7 @@ public class ifStringIsInt1 {
 		
 //  For Practice
 	String s = "1234k";
-	boolean b =strOrInt(s);
+	boolean b = strOrInt(s);
 	System.out.println(b);
 	
 	}
@@ -37,4 +37,5 @@ public class ifStringIsInt1 {
 	}
 	return true;
 	}
+
 }

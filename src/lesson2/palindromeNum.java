@@ -28,13 +28,13 @@ public class palindromeNum {
 	return rev;   */
 		
 //  For Practice
-	int num = 3456543;
+	int num = 3456543;	
 	int pNum = palindrome(num);
 	if (pNum==num)   {
 	System.out.println(num+" - is a Palindrome number");	
 	}
 	else {
-	System.out.println(num+" - is NOT a Palindome number");		
+	System.out.println(num+" - is NOT a Palindrome number");
 	}
 	}
 
@@ -45,6 +45,6 @@ public class palindromeNum {
     rev=rev*10+r;
     num=num/10;
     }
-    return rev;	
+    return rev;
     }
 }

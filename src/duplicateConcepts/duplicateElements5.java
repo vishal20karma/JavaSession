@@ -20,6 +20,7 @@ public class duplicateElements5 {
 	List<Integer> list = Arrays.asList(1,2,2,3,4,5,5,5,6,6,7,8,9,10,10);
 	Set<Integer> dup = list.stream().filter(s->Collections.frequency(list, s)>1).collect(Collectors.toSet());
 	System.out.println(dup);
+	
 	}
 
 }

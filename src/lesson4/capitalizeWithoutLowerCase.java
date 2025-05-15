@@ -37,24 +37,24 @@ public class capitalizeWithoutLowerCase {
 	System.out.println(fResult);
 	
 	}
-    
-	public static String capitalize(String str)   {
+
+	public static String capitalize(String str) {
 	String result="";
-	str=str.trim();	
+	str=str.trim();
 	if (str.length()==1)   {
-	result=str.toUpperCase();
+	result=str;	
 	return result;
 	}
 	else if (str.length()>1)   {
-	String [] spls = str.split("\\s");
+	String [] spls = str.split("\\s");	
 	for (String s:spls)   {
-	String first = s.substring(0, 1);	
-	String rem = s.substring(1).toLowerCase();
+	String first=s.substring(0, 1);	
+	String rem=s.substring(1).toLowerCase();
 	result=result+first+rem+" ";
 	}
-	return result;
+	return result.trim();
 	}
-    return "String do not have any character or just have spaces";
+	return "String do not have any character or just have spaces";
 	}
-
+   
 }

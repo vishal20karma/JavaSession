@@ -17,7 +17,6 @@ public class removeSplChar {
 	String s = "/.,mac$#@*)book(%^)pro@14";
 	s=s.replaceAll("[^0-9;A-Z;a-z]", "");
 	System.out.println(s);
-	
 	}
 
 }

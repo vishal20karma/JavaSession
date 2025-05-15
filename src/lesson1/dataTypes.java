@@ -33,6 +33,7 @@ public class dataTypes {
 	System.out.println(f);
 	System.out.println(d);
 	System.out.println(b);
+	
 	}
 
 }

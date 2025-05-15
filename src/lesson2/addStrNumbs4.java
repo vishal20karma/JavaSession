@@ -23,7 +23,7 @@ public class addStrNumbs4 {
 	if (s.charAt(i)>='0' && s.charAt(i)<='9')   {
 	char c = s.charAt(i);
 	String value = String.valueOf(c);
-	sum=sum+Integer.parseInt(value);	
+	sum=sum+Integer.parseInt(value);
 	}
 	}
 	System.out.println(sum);

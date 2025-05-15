@@ -32,6 +32,7 @@ public class maxNumOfThree {
 	else {
 	System.out.println(c+" - is greatest number");	
 	}
+	
 	}
 
 }

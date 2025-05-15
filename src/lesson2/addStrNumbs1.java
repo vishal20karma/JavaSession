@@ -28,8 +28,8 @@ public class addStrNumbs1 {
 	
 //  For Practice		
 	String s = "@abc1hgnh12jhh07";
-	String num="";
 	int sum=0;
+	String num="";
 	for (int i=0;i<s.length();i++)   {
 	char c = s.charAt(i);	
 	if (Character.isDigit(c))   {
@@ -43,7 +43,7 @@ public class addStrNumbs1 {
 	}
 	}
 	if (!num.equals(""))   {
-	sum=sum+Integer.parseInt(num);
+	sum=sum+Integer.parseInt(num);	
 	}
 	System.out.println(sum);
 	

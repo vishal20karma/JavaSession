@@ -22,7 +22,7 @@ public class addTwoArrays {
 	String [] batsman = {"Rohit","Shubman","Virat","Shreyas","Jadeja","Rishab"};
 	String [] bowler = {"KL Rahul","Shami","Bumrah","Shiraj","Ashwin"};
 	Stream<String> sBat = Arrays.stream(batsman);
-	Stream<String> sBow = Arrays.stream(bowler);
+	Stream<String> sBow =  Arrays.stream(bowler);
 	String [] fullTeam = Stream.concat(sBat, sBow).toArray(size->new String [size]);
 	for (String s:fullTeam)   {
 	System.out.println(s);	

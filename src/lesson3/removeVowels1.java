@@ -13,10 +13,11 @@ public class removeVowels1 {
 	
 //	For Practice
 	String str = "Test Automation Central";
-	str=str.replaceAll("[aeiouAEIOU]", "");
+	str=str.replaceAll("[AEIOUaeiou]", "");
 	System.out.println(str);
 	
 	System.out.println("*********************************");
+
 /*	String str2 = "Test Automation Central New";
     String vowels = "aeiouAEIOU";
     String result="";
@@ -30,15 +31,16 @@ public class removeVowels1 {
 	
 //  For Practice
 	String str2 = "Test Automation Central New";
-	String vowels = "aeiouAEIOU";
+	String vowels = "AEIOUaeiou";
 	String result="";
 	for (int i=0;i<str2.length();i++)   {
-	char c = str2.charAt(i);	
+	char c = str2.charAt(i);
 	if (vowels.indexOf(c)==-1)   {
 	result=result+c;	
 	}
 	}
 	System.out.println(result);
+	
 	}
 
 }

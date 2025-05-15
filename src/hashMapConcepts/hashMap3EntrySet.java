@@ -42,7 +42,6 @@ public class hashMap3EntrySet {
 	System.out.println("Key="+entry.getKey()+" : "+"Value="+entry.getValue());
 	}
 
-	
 	}
 
 }

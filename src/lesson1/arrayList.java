@@ -21,7 +21,7 @@ public class arrayList {
 	ArrayList<String> a = new ArrayList<String>();
 	a.add("Vishal");
 	a.add("Vishakha");
-	a.add("Vijay");
+	a.add("vijay");
 	a.add("Vivek");
 	a.add("Vikrant");
 	System.out.println(a.get(2));
