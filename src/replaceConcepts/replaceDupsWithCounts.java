@@ -47,6 +47,8 @@ public class replaceDupsWithCounts {
 	}
 	System.out.println(result.toString());
 	
+	System.out.println("*******************************");
+	
 //  How to replace the characters of a string by same number of counts it has in the string
 	String strNew = "Automatically";
 	strNew =strNew.toLowerCase();
