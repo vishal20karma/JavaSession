@@ -37,25 +37,26 @@ public class binary {
 	
 	}
 
-	public static void isBinaryNum(int num)   {
-	int copyNum=num;
-	boolean isBinary=true;
-	while (copyNum!=0)   {
-	int rem = copyNum%10;	
-	if (rem>1)   {
-	isBinary=false;
-	break;
-	}
-	else {
-	copyNum=copyNum/10;	
-	}
-	}
-	if (isBinary)   {
-	System.out.println(num+" - is a Binary number");	
-	}
-	else {
-	System.out.println(num+" - is NOT a Binary number");	
-	}
-	
-	}
+    public static void isBinaryNum(int num)   {
+    int copyNum=num;
+    boolean isBinary=true;
+    while (copyNum!=0)   {
+    int rem = copyNum%10;	
+    if (rem>1)   {
+    isBinary=false;
+    break;
+    }
+    else {
+    copyNum=copyNum/10;	
+    }
+    }
+    if (isBinary)   {
+    System.out.println(num+" - is a Binary number");	
+    }
+    else {
+    System.out.println(num+" - is NOT a Binary number");	
+    }
+    
+    }
+
 }

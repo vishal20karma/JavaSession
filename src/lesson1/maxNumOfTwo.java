@@ -15,7 +15,7 @@ public class maxNumOfTwo {
 //  For Practice
     int a=10;
     int b=15;
-    int max = (a>b) ? a : b ;
+    int max = (a>b) ? a : b;
     System.out.println(max);
 //	System.out.println((a>b) ? "a:"+a : "b:"+b);
 	

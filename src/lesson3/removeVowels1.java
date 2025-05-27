@@ -12,7 +12,7 @@ public class removeVowels1 {
 	System.out.println(str);   */
 	
 //	For Practice
-	String str = "Test Automation Central";
+	String str  = "Test Automation Central";
 	str=str.replaceAll("[AEIOUaeiou]", "");
 	System.out.println(str);
 	
@@ -34,7 +34,7 @@ public class removeVowels1 {
 	String vowels = "AEIOUaeiou";
 	String result="";
 	for (int i=0;i<str2.length();i++)   {
-	char c = str2.charAt(i);
+	char c = str2.charAt(i);	
 	if (vowels.indexOf(c)==-1)   {
 	result=result+c;	
 	}

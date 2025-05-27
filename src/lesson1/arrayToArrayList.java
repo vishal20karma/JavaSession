@@ -22,8 +22,8 @@ public class arrayToArrayList {
 //  For Practice
 	String [] names = {"Ravi","Kavi","Savi","Lavi","Pavi"};
 	List<String> arrLstNm = Arrays.asList(names);
-	for (String s:names)   {
-	System.out.println(s);	
+	for (String s:arrLstNm)   {
+	System.out.println(s);
 	}
 	
 	System.out.println("**********************************");

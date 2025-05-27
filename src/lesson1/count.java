@@ -33,15 +33,15 @@ public class count {
     a.add("Sushant");
     int k=0;
     for (int i=0;i<a.size();i++)   {
-    String names = a.get(i);
-    if (names.startsWith("s"))   {
+    String names = a.get(i);	
+    if (names.startsWith("S"))   {
     System.out.println(names);	
     k++;
     }
-	}
-    System.out.println("Size of S prefix names - "+k);
-    System.out.println("ArrayList size - "+a.size());
-
+    }
+    System.out.println("Size of S prefix names -"+k);
+    System.out.println("ArrayList size -"+a.size());
+	
 	}
 
 }

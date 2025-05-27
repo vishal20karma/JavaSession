@@ -20,6 +20,7 @@ public class ASCIIValue {
 //  For Practice
 	int alpha=65;
 	System.out.println((char)alpha);
+	
 	}
 
 }

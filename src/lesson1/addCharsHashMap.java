@@ -27,12 +27,13 @@ public class addCharsHashMap {
 	int k=1;
 	for (int i=0;i<str.length();i++)   {
 	if (c[i]!=' ')   {
-	hm.put(k, c[i]);
-//	hm.put(i, c[i]);
+    hm.put(k, c[i]);
+//	hm.put(i, c[i]);	
 	k++;
 	}
 	}
 	System.out.println(hm);
+	
 	}
 
 }

@@ -13,7 +13,7 @@ public class oddEven3 {
 //  For Practice
     int n = 18;
     String [] result = {"Even", "Odd"};
-	System.out.println(result[n%2]);
+    System.out.println(result[n%2]);
 	
 	System.out.println("**************************************");
 	
@@ -25,8 +25,8 @@ public class oddEven3 {
 //  For Practice
 	int i = 15;
 	String evOrOdd = (i%2==0) ? "Even" : "Odd";
-	System.out.println(evOrOdd);
-
+    System.out.println(evOrOdd);
+	
 	}
 
 }

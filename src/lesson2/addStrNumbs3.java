@@ -15,9 +15,9 @@ public class addStrNumbs3 {
 	System.out.println(sum);   */
 	
 //  For Practice
-	String str1 = "10 45 02 9 65";
+	String s1 = "10 45 02 9 65";
 	int sum=0;
-	String [] spls = str1.split(" ");
+	String [] spls = s1.split(" ");
 	for (int i=0;i<spls.length;i++)   {
 	sum=sum+Integer.parseInt(spls[i]);	
 	}

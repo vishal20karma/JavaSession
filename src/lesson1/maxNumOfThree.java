@@ -27,7 +27,7 @@ public class maxNumOfThree {
 	System.out.println(a+" - is greatest number");	
 	}
 	else if (b>a && b>c)   {
-	System.out.println(b+" - is greatest number");	
+	System.out.println(b+" - is greatest number");
 	}
 	else {
 	System.out.println(c+" - is greatest number");	

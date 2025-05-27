@@ -9,7 +9,7 @@ public class minMaxNumber {
 /*	int a=10,b=20,c=30;
 	int mx = maxNum(a, b, c);	
 	System.out.println(mx);
-	int mn = minNum(10, 20, 30);
+	int mn = minNum(a, b, c);
 	System.out.println(mn);
 	
 	}
@@ -36,10 +36,10 @@ public class minMaxNumber {
 	return min;   */
 		
 //  For Practice
-	int a=10;int b=20;int c=30;
-	int mx = maxNum(a, b, c);
+	int a=10,b=20,c=30;
+	int mx = maxNum(a,b,c);
     System.out.println(mx);
-    int mn = minNum(a, b, c);
+    int mn = minNum(a,b,c);
 	System.out.println(mn);
 	
 	}
@@ -56,8 +56,8 @@ public class minMaxNumber {
 	}
 
     public static int minNum(int a, int b, int c)   {
-    int min=0;	
-    while (a>0 && b>0 && c>0)   {
+    int min=0;
+    while (a>0 && b>0 && c>00)   {
     a--;
     b--;
     c--;

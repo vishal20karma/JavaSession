@@ -30,8 +30,8 @@ public class primeNum3 {
 	}
 	}
 	if (count==2)   {
-	System.out.println(i+" - is a Prime number");
-	}	
+	System.out.println(i+" - is a Prime number");	
+	}
 	else {
 	System.out.println(i+" - is NOT a Prime number");	
 	}

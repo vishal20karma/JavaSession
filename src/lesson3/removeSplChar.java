@@ -14,9 +14,10 @@ public class removeSplChar {
 //  space can be used instead of ';' in the rectangular bracket, it works		
 	
 //  For Practice
-	String s = "/.,mac$#@*)book(%^)pro@14";
+	String s ="/.,mac$#@*)book(%^)pro@14";
 	s=s.replaceAll("[^0-9;A-Z;a-z]", "");
 	System.out.println(s);
+	
 	}
 
 }

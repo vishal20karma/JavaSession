@@ -30,12 +30,12 @@ public class ifStringIsInt1 {
 
 	public static boolean strOrInt(String s)   {
 	for (int i=0;i<s.length();i++)   {
-	char c = s.charAt(i);	
+	char c = s.charAt(i);
 	if (!Character.isDigit(c))   {
 	return false;	
 	}
 	}
 	return true;
+	
 	}
-
 }

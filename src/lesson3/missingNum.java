@@ -24,17 +24,16 @@ public class missingNum {
 //  For Practice
 	int [] num = {1,2,3,4,6,7,8,9,10};
 	int num2 = missingNum(num, 10);
-    System.out.println(num2);
+	System.out.println(num2);
 	
 	}
 
 	public static int missingNum(int [] num, int totalCount)   {
-	int totalSum = (totalCount)*(totalCount+1)/2;
+	int totalSum = (totalCount)*(totalCount+1)/2;	
 	int actualSum=0;
 	for (int i:num)   {
 	actualSum=actualSum+i;	
 	}
 	return totalSum-actualSum;
 	}
-
 }

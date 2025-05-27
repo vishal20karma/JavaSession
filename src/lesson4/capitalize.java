@@ -8,7 +8,7 @@ public class capitalize {
 //  How to Capitalize first letter in a given string/sentence	
 /*  String str = "india is a great country";   //Use blank, single space, double or more spaces to test
     String fResult = capitalize(str);
-	System.out.println(fResult);
+	System.out.println(fResult.trim());
 	
 	}
 
@@ -33,8 +33,8 @@ public class capitalize {
 		
 //  For Practice
 	String str = "india is a great country";
-	String fResult = capitalize(str);	
-	System.out.println(fResult);
+	String fResult = capitalize(str);
+	System.out.println(fResult.trim());
 	
 	}
 
@@ -46,13 +46,13 @@ public class capitalize {
 	return result;
 	}
 	else if (str.length()>1)   {
-	String [] spls = str.split("\\s");	
-	for (String s:spls)   {
-	String first=s.substring(0, 1).toUpperCase();	
-	String rem = s.substring(1);
+	String spls [] = str.split("\\s"); 
+	for (int i=0;i<spls.length;i++)   {
+	String first = spls[i].substring(0, 1).toUpperCase();
+	String rem = spls[i].substring(1);
 	result=result+first+rem+" ";
 	}
-	return result.trim();
+	return result;
 	}
 	return "String do not have any character or just have spaces";
 	}
