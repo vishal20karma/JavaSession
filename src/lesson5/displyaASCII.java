@@ -16,7 +16,7 @@ public class displyaASCII {
 	for (int i=0;i<str.length();i++)   {
 	char c = str.charAt(i);	
 	if (c!=' ')   {
-	int k = (char)c;
+	int k = (int)c;
     sum=sum+k;
 	System.out.println("ASCII Value of "+c+" : "+(int)c);
 	}
@@ -26,20 +26,20 @@ public class displyaASCII {
 //  For Practice
 	String str = "Test Automation Central";
 	calcASCII(str);
-    
+	
+	}
+
+    public static void calcASCII(String str)   {
+    int sum=0;
+    for (int i=0;i<str.length();i++)   {
+    char c = str.charAt(i);	
+    if (c!=' ')   {
+    int k = (int)c;	
+    sum=sum+k;
+    System.out.println("ASCII Value of "+c+" : "+(int)c);
+    }
+    }
+    System.out.println(sum);
     }
 
-	public static void calcASCII(String str)   {
-	int sum=0;
-	for (int i=0;i<str.length();i++)   {
-	char c = str.charAt(i);
-	if (c!=' ')   {
-	int k = (char)c;
-	sum=sum+k;
-//	sum=sum+(int)c;   //This can directly used without throwing char ASCII value to int as shown upper
-	System.out.println("ASCII Value of "+c+" : "+(int)c);
-	}
-	}
-	System.out.println(sum);
-	}
 }

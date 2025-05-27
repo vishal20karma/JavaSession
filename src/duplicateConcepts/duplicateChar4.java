@@ -51,7 +51,7 @@ public class duplicateChar4 {
 	System.out.println(hm);
 	for (Character key:hm.keySet())   {
 	if (hm.get(key)>1)   {
-	System.out.println("Duplicate- "+key+" : "+hm.get(key));	
+	System.out.println(key+" : "+hm.get(key));	
 	}
 	}
 	

@@ -25,10 +25,10 @@ public class sqrFilterAvg1 {
 	int count=0;
 	int sum=0;
 	for (int i=0;i<num.length;i++)   {
-	int sqr=num[i]*num[i];
+	int sqr = num[i]*num[i];	
 	if (sqr>100)   {
 	sum=sum+sqr;
-	count++;	
+	count++;
 	}
 	}
 	System.out.println("Total - "+sum);

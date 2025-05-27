@@ -58,7 +58,7 @@ public class replaceIntToString {
 	}
 	System.out.println(result);
 	String naming="";
-	for (int i=0;i<result.length();i++)   {
+	for (int j=0;j<result.length();j++)   {
 	String first = result.substring(0, 1);	
 	String remaining = result.substring(1).toLowerCase();
 	naming=first+remaining;

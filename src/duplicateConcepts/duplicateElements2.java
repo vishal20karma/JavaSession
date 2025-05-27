@@ -21,11 +21,11 @@ public class duplicateElements2 {
 //  For Practice
 	String [] s = {"c","java","python","ruby","c++","cobol","c","java"};
 	HashSet<String> store = new HashSet<String>();
-	for (String names:s)   {
 	int count=1;
+	for (String names:s)   {
 	if (store.add(names)==false)   {
 	count++;
-	System.out.println(names+" : "+count);	
+	System.out.println(names+" : "+count);
 	}
 	}
 	

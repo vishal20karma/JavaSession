@@ -27,11 +27,10 @@ public class duplicateElements3 {
 	store.add(names);	
 	}
 	System.out.println(store);
-	String [] s2 = store.toArray(size-> new String [size]);
+	String s2 [] = store.toArray(size->new String [size]);
 	for (String s3:s2)   {
 	System.out.println(s3);	
 	}
-	
 	}
 	
 }

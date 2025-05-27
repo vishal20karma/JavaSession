@@ -1,4 +1,4 @@
-package duplicateConcepts;
+ package duplicateConcepts;
 
 public class duplicateElements1 {
 
@@ -23,7 +23,7 @@ public class duplicateElements1 {
 	int count=1;
 	for (int j=i+1;j<s.length;j++)   {
 	if (s[i].equals(s[j]))   {
-	count++;	
+	count++;
 	System.out.println(s[i]+" : "+count);
 	}
 	}

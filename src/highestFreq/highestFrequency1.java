@@ -45,15 +45,15 @@ public class highestFrequency1 {
 	int newFreq = oldFreq+1;
 	hm.put(c, newFreq);
 	}
-	else   {
-	hm.put(c, 1);
+	else {
+	hm.put(c, 1);	
 	}
 	}
-	char maxFreq = s.charAt(0);
-	char scndMaxFreq = s.charAt(0);
+	char maxFreq=s.charAt(0);
+	char scndMaxFreq=s.charAt(0);
 	for (Character key:hm.keySet())   {
 	if (hm.get(key)>hm.get(maxFreq))   {
-	maxFreq=key;
+	maxFreq=key;	
 	}
 	else if (hm.get(key)>hm.get(scndMaxFreq) && hm.get(key)<hm.get(maxFreq))   {
 	scndMaxFreq=key;	
