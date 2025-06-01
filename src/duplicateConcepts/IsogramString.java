@@ -1,6 +1,7 @@
 package duplicateConcepts;
 
 import java.util.HashMap;
+import java.util.LinkedHashMap;
 
 public class IsogramString {
 
@@ -14,7 +15,7 @@ public class IsogramString {
 	}
 	
 	public static boolean isogramOrNot(String s)   {
-	HashMap<Character, Integer> hm = new HashMap<Character, Integer>();
+	LinkedHashMap<Character, Integer> hm = new LinkedHashMap<Character, Integer>();   //Purposely used LinkedHashMap because it add the data in insertion order
 	for (int i=0;i<s.length();i++)   {
 	char c = s.charAt(i);	
 	hm.put(c, hm.getOrDefault(c, 0)+1);
@@ -35,7 +36,7 @@ public class IsogramString {
 	}
 		
 	public static boolean isogramOrNot(String s)   {
-	HashMap<Character, Integer> hm = new HashMap<Character, Integer>();
+	LinkedHashMap<Character, Integer> hm = new LinkedHashMap<Character, Integer>();
 	for (int i=0;i<s.length();i++)   {
 	char c = s.charAt(i);	
 	hm.put(c, hm.getOrDefault(c, 0)+1);

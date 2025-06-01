@@ -18,7 +18,7 @@ public class one2NSum {
 	System.out.println("Enter the 'N' number");
 	int n = s.nextInt();
 	int sum = n*(n+1)/2;
-	System.out.println("Total sum: "+sum);	
+	System.out.println(sum);
 	
 	}
 

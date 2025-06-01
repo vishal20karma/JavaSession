@@ -10,7 +10,7 @@ public class uppercaseCount {
 	int count=0;
 	for (int i=0;i<str.length();i++)   {
 	char c = str.charAt(i);	
-	if (Character.isUpperCase(c))   {
+	if (Character.isUpperCase(c))   {   // "Character.isLowerCase(c)" - This give lower case count
 	count++;	
 	}
 	}
@@ -21,7 +21,7 @@ public class uppercaseCount {
 	int count=0;
 	for (int i=0;i<str.length();i++)   {
 	char c  = str.charAt(i);	
-	if (Character.isUpperCase(c))   {
+	if (Character.isUpperCase(c))   {   // "Character.isLowerCase(c)" - This give lower case count
 	count++;	
 	}
 	}

@@ -28,6 +28,34 @@ public class vowelsCount {
 	}
 	System.out.println(count);
 	
+    System.out.println("*******************************");
+    
+//  How to find the Vowels without using '||' as shown above	
+/*	String str2 = "Test Automation Central New";
+	String vowels = "AEIOUaeiou";
+	String result="";
+	int cnt=0;
+	for (int i=0;i<str2.length();i++)   {
+	char c = str2.charAt(i);	
+	if (vowels.indexOf(c)!=-1)   {
+	cnt++;
+	}
+	}
+	System.out.println(cnt);   */
+    
+//  For Practice
+    String str2 = "Test Automation Central New";
+	String vowels = "AEIOUaeiou";
+	String result="";
+	int cnt=0;
+	for (int i=0;i<str2.length();i++)   {
+	char c = str2.charAt(i);	
+	if (vowels.indexOf(c)!=-1)   {
+	cnt++;
+	}
+	}
+	System.out.println(cnt);
+	
 	}
 
 }
