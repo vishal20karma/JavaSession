@@ -1,4 +1,4 @@
-package lesson4;
+package reverseConcepts;
 
 public class reverseAlternate1 {
 
@@ -7,7 +7,7 @@ public class reverseAlternate1 {
 
 //  How to reverse the alternate words in a String
 /*	String Output = "The taerG Indian ymonocE";
-	String str =    "The Great Indian Economy";
+	String str = "The Great Indian Economy";
 	StringBuilder sb = new StringBuilder();
 	String [] spls = str.split(" ");
 	for (int i=0;i<spls.length;i++)   {
