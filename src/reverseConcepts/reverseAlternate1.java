@@ -11,11 +11,12 @@ public class reverseAlternate1 {
 	StringBuilder sb = new StringBuilder();
 	String [] spls = str.split(" ");
 	for (int i=0;i<spls.length;i++)   {
+	String s = spls[i];
 	if (i%2==1)   {
-	sb.append(new StringBuilder(spls[i]).reverse()+" ");   
+	sb.append(new StringBuilder(s).reverse()+" ");	
 	}
 	else {
-	sb.append(spls[i]+" "); 
+	sb.append(s+" ");	
 	}
 	}
 	System.out.println(sb.toString().trim());   */
@@ -26,11 +27,12 @@ public class reverseAlternate1 {
 	StringBuilder sb = new StringBuilder();
 	String [] spls = str.split(" ");
 	for (int i=0;i<spls.length;i++)   {
+	String s = spls[i];
 	if (i%2==1)   {
-	sb.append(new StringBuilder(spls[i]).reverse()+" ");	
+	sb.append(new StringBuilder(s).reverse()+" ");	
 	}
 	else {
-	sb.append(spls[i]+" ");	
+	sb.append(s+" ");	
 	}
 	}
 	System.out.println(sb.toString().trim());

@@ -33,8 +33,10 @@ public class replaceDupsWithCounts {
 	HashMap<Character, Integer> map = new HashMap<Character, Integer>();
 	for (int i=0;i<str.length();i++)   {
 	char c = str.charAt(i);	
+//	map.put(c, map.getOrDefault(c, 0)+1);
 	map.put(c, map.getOrDefault(c, 0)+1);
 	}
+	
 	StringBuilder result = new StringBuilder();
 	for (int i=0;i<str.length();i++)   {
 	char c = str.charAt(i);

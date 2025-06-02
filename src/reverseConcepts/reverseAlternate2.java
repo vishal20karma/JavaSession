@@ -21,7 +21,7 @@ public class reverseAlternate2 {
 	result=result+rev+" ";
 	}
 	else {
-	result=result+spls[i]+" ";
+	result=result+s+" ";
 	}
 	}
 	System.out.println(result.toString().trim());   */
@@ -42,7 +42,7 @@ public class reverseAlternate2 {
 	result=result+rev+" ";
 	}
 	else {
-	result=result+spls[i]+" ";	
+	result=result+s+" ";	
 	}
 	}
 	System.out.println(result.toString().trim());

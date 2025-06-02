@@ -8,7 +8,7 @@ public class largestForwardDiagonal {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-	Scanner sc = new Scanner(System.in);
+/*	Scanner sc = new Scanner(System.in);
 //  Step 1: Read matrix dimensions
 	int n = sc.nextInt();
 	int m = sc.nextInt();
@@ -37,7 +37,7 @@ public class largestForwardDiagonal {
 	
 //  Step 6: Output the result
 	System.out.println(maxSum);
-	sc.close();
+	sc.close();   */
 	
 	}
 

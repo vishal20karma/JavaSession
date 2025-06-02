@@ -1,4 +1,4 @@
-package duplicateConcepts;
+package dataStructures;
 
 import java.util.HashMap;
 import java.util.LinkedHashMap;
