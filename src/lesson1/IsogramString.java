@@ -1,4 +1,4 @@
-package dataStructures;
+package lesson1;
 
 import java.util.HashMap;
 import java.util.LinkedHashMap;

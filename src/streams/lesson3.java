@@ -44,7 +44,6 @@ public class lesson3 {
 	Stream<String> c2 = Stream.concat(a.stream(), b.stream());
 	boolean flag = c2.anyMatch(s->s.equalsIgnoreCase("Sushant"));
 	System.out.println(flag);
-	Assert.assertTrue(flag);
 	
 	}
 }

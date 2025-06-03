@@ -1,7 +1,5 @@
 package lesson2;
 
-import org.testng.Assert;
-
 public class palindromeNum {
 
 	public static void main(String[] args) {
