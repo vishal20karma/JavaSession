@@ -8,17 +8,19 @@ public class one2NSum {
 		// TODO Auto-generated method stub
 //  How to add 1 to n numbers
 /*	Scanner s = new Scanner(System.in);
-	System.out.println("Enter the 'N' number");
+	System.out.println("Enter the 'N' number:");
 	int n = s.nextInt();
 	int sum = n*(n+1)/2;
-	System.out.println("Total sum: "+sum);   */
+	System.out.println("Total sum: "+sum);
+	s.close();   */
 		
 //  For Practice
 	Scanner s = new Scanner(System.in);
-	System.out.println("Enter the 'N' number");
+	System.out.println("Enter the N number:");
 	int n = s.nextInt();
 	int sum = n*(n+1)/2;
-	System.out.println(sum);
+	System.out.println("Total sum: "+sum);
+	s.close();
 	
 	}
 

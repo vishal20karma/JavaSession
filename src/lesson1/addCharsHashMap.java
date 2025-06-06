@@ -9,12 +9,12 @@ public class addCharsHashMap {
 //  How to add all the characters of a string in a HashMap
 /*	String str = "My Interview Questions";
 	HashMap<Integer, Character> hm = new HashMap<Integer, Character>();
-	char [] c = str.toCharArray();
 	int k=1;   //This has been used to add consecutive sequence, else it will add index for spaces also
-	for (int i=1;i<str.length();i++)   {
-	if (c[i]!=' ')   {
-	hm.put(k, c[i]);
-//  hm.put(i, c[i]);	//This will add up exact index as there are spaces also
+	for (int i=0;i<str.length();i++)   {
+	char c = str.charAt(i);	
+	if (c!=' ')   {
+	hm.put(k, c);
+//	hm.put(i, c);	//This will add up exact index as there are spaces also
 	k++;
 	}
 	}
@@ -23,12 +23,12 @@ public class addCharsHashMap {
 //  For Practice
 	String str = "My Interview Questions";
 	HashMap<Integer, Character> hm = new HashMap<Integer, Character>();
-	char [] c = str.toCharArray();
 	int k=1;
 	for (int i=0;i<str.length();i++)   {
-	if (c[i]!=' ')   {
-    hm.put(k, c[i]);
-//	hm.put(i, c[i]);	
+	char c = str.charAt(i);	
+	if (c!=' ')   {
+	hm.put(k, c);
+//	hm.put(i, c);
 	k++;
 	}
 	}

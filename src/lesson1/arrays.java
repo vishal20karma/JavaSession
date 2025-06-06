@@ -34,7 +34,6 @@ public class arrays {
 	
 //  For Practice
 	int [] arr2 = {6,7,8,9,10};
-	System.out.println(arr2[1]);
 	for (int i=0;i<arr2.length;i++)   {
 	System.out.println(arr2[i]);	
 	}

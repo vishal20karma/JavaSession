@@ -39,9 +39,9 @@ public class count {
     k++;
     }
     }
-    System.out.println("Size of S prefix names -"+k);
-    System.out.println("ArrayList size -"+a.size());
-	
+	System.out.println("Size of S prefix names - "+k);
+	System.out.println("ArrayList size - "+a.size());
+    
 	}
 
 }

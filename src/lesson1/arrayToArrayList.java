@@ -23,7 +23,7 @@ public class arrayToArrayList {
 	String [] names = {"Ravi","Kavi","Savi","Lavi","Pavi"};
 	List<String> arrLstNm = Arrays.asList(names);
 	for (String s:arrLstNm)   {
-	System.out.println(s);
+	System.out.println(s);	
 	}
 	
 	System.out.println("**********************************");
