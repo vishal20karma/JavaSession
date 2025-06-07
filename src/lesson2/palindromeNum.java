@@ -27,8 +27,8 @@ public class palindromeNum {
 		
 //  For Practice
 	int num = 3456543;
-	int pNum = palindrom(num);
-	if (pNum==num)   {
+	int pNum = palindrome(num);
+	if (num==pNum)   {
 	System.out.println(num+" - is a Palindrome number");	
 	}
 	else {
@@ -36,14 +36,13 @@ public class palindromeNum {
 	}
 	}
 
-    public static int palindrom(int num)   {
-    int rev=0;
-    while (num!=0)   {
-    int r = num%10;	
-    rev=rev*10+r;
-    num=num/10;
-    }
-    return rev;
-    }
-
+	public static int palindrome(int num)   {
+	int rev=0;
+	while (num!=0)   {
+	int r = num%10;	
+	rev=rev*10+r;
+	num=num/10;
+	}
+	return rev;
+	}
 }

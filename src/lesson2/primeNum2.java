@@ -14,7 +14,7 @@ public class primeNum2 {
 	}
 	}
 	if (count==2)   {
-	System.out.println(pNum[i]+" - is a Prime numbr");
+	System.out.println(pNum[i]+" - is a Prime number");
 	}
 	else   {
 	System.out.println(pNum[i]+" - is NOT a Prime number");	
@@ -24,7 +24,7 @@ public class primeNum2 {
 //  For Practice
 	int [] pNum = {0,1,2,3,4,5,6,7,8,9,10,11,12,13};
 	for (int i=0;i<pNum.length;i++)   {
-	int count=0;	
+	int count=0;
 	for (int j=1;j<=pNum[i];j++)   {
 	if (pNum[i]%j==0)   {
 	count++;	
@@ -34,7 +34,7 @@ public class primeNum2 {
 	System.out.println(pNum[i]+" - is a Prime number");	
 	}
 	else {
-	System.out.println(pNum[i]+" - is NOT a Prime number");	
+	System.out.println(pNum[i]+" - is NOT a Prime number");		
 	}
 	}
 	

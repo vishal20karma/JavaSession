@@ -34,6 +34,7 @@ public class compTwoArray {
 //	ArrayList<String> sb2 = new ArrayList<String>(Arrays.asList(batsman2));
 	System.out.println(sb1.equals(sb2));
 	System.out.println(sb1.equals(sb3));
+	
 	}
 
 }
