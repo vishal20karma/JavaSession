@@ -10,8 +10,7 @@ public class woSemicolonPrint {
 	}   */
 		
 //  For Practice
-	if (System.out.printf("Hello World"+"\n")==null)   {
-		
+	if (System.out.printf("Hello World"+"\n")==null )   {
 	}
 	
 	System.out.println("*********************");

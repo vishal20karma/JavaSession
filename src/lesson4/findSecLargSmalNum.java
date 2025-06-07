@@ -26,15 +26,15 @@ public class findSecLargSmalNum {
 	scndSmallest=num[i];	
 	}
 	}
-    System.out.println("Second Largest: "+scndLargest);
-    System.out.println("Second Smallest: "+scndSmallest);   */
+    System.out.println("Second largest: "+scndLargest);
+    System.out.println("Second smallest: "+scndSmallest);   */
 		
 //  For Practice
 	int [] num = {10, -8, -90, 123, 56, 0, -19, 100, 555};
 	int largest = num[0];
 	int scndLargest = num[0];
 	int smallest = num[0];
-	int scndSmallest = num[0];
+	int scndSmallest= num[0];
 	for (int i=1;i<num.length;i++)   {
 	if (num[i]>largest)   {
 	scndLargest=largest;
@@ -44,16 +44,16 @@ public class findSecLargSmalNum {
 	scndLargest=num[i];	
 	}
 	if (num[i]<smallest)   {
-	scndSmallest=smallest;
+	smallest=scndSmallest;	
 	smallest=num[i];
 	}
 	else if (num[i]<scndSmallest && num[i]>smallest)   {
 	scndSmallest=num[i];	
 	}
 	}
-    System.out.println("Second Largest: "+scndLargest);
-    System.out.println("Second Smallest: "+scndSmallest);
-	
+	System.out.println("Second largest: "+scndLargest);
+	System.out.println("Second smallest: "+scndSmallest);
+		
 	}
 
 }

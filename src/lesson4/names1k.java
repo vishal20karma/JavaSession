@@ -38,7 +38,7 @@ public class names1k {
 	s=s.replace("i", "iiiiiiiiii");
 	s=s.replace("i", "iiiiiiiiii");
 	s=s.replace("i", "iiiiiiiiii");
-	s=s.replace("i", name + "\n");
+	s=s.replace("i", name+"\n");
 	System.out.println(s);
 	
 	System.out.println("********************************");
@@ -57,14 +57,14 @@ public class names1k {
 	
 //  For Practice
 	names(1, "Vishal");
+    
 	}
 
-    public static void names(int num, String myName)   {
-    if (num<=1000)   {
-    System.out.println(myName);
-    num++;
-    names(num, myName);
-    }
-    }
-
+	public static void names(int num, String myName)   {
+	if (num<=1000)   {
+	System.out.println(myName);
+	num++;
+	names(num, myName);
+	}
+	}
 }
