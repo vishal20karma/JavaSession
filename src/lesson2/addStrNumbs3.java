@@ -5,7 +5,7 @@ public class addStrNumbs3 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-//  How to add all Integers present in the String as whole digit
+//  How to add all Integers present in the String as whole digit - Output-131
 /*	String str1 = "10 45 02 9 65";
 	int sum=0;
 	String [] spls = str1.split(" ");
@@ -14,7 +14,7 @@ public class addStrNumbs3 {
 	}
 	System.out.println(sum);   */
 	
-//  For Practice
+//  For Practice - Output-131
 	String s1 = "10 45 02 9 65";
 	int sum=0;
 	String [] spls = s1.split(" ");
@@ -25,8 +25,8 @@ public class addStrNumbs3 {
 	
 	System.out.println("*********************************");
 	
-//  How to add all the Integers separately given in a String
-/*	String str2 = "10 5 02 9 65";
+//  How to add all the Integers separately given in a String - Output-34
+/*	String str2 = "10 5 02 9 67";
 	int tSum=0;
 	for (int i=0;i<str2.length();i++)   {
 	char c = str2.charAt(i);	
@@ -37,8 +37,8 @@ public class addStrNumbs3 {
 	}
 	System.out.println(tSum);   */
 	
-//  For Practice
-	String str2 = "10 45 02 9 65";
+//  For Practice - Output-34
+	String str2 = "10 45 02 9 67";
 	int tSum=0;
 	for (int i=0;i<str2.length();i++)   {
 	char c = str2.charAt(i);	
