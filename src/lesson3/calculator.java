@@ -12,7 +12,7 @@ public class calculator {
 	System.out.println("Enter two numbers:");
 	int a = s.nextInt();
 	int b = s.nextInt();
-	System.out.println("Enter an operator for calculation-(+,-,*,/,%)");   //Modulus always return remainder
+	System.out.println("Enter an operator -(+,-,*,/,%)");   //Modulus always return remainder
     char op = s.next().charAt(0);
 	switch (op) {
 	case '+' : System.out.println(a+b);
@@ -30,12 +30,12 @@ public class calculator {
 		
 //  For Practice
 	Scanner s = new Scanner(System.in);
-	System.out.println("Enter two numbers:");
+	System.out.println("Enter the two numbers:");
 	int a = s.nextInt();
 	int b = s.nextInt();
-	System.out.println("Enter an operator for calculation-(+,-,*,/,%)");
+	System.out.println("Enter the operator for -(+,-,*,/,%)");
 	char op = s.next().charAt(0);
-	switch (op)   {
+	switch (op) {
 	case '+' : System.out.println(a+b);
 	break;
 	case '-' : System.out.println(a-b);
