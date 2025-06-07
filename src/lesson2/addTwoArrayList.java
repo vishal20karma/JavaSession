@@ -22,7 +22,7 @@ public class addTwoArrayList {
 	a.add("Vishal");
 	a.add("Vivek");
 	a.add("Suman");
-	a.add("Ranajn");
+	a.add("Ranjan");
 	a.add("Sushant");
 	
 /*	ArrayList<String> b = new ArrayList<String>();
@@ -51,9 +51,10 @@ public class addTwoArrayList {
 //  For Practice
 	Stream<String> name1 = a.stream();
 	Stream<String> name2 = b.stream();
-	List<String> names = Stream.concat(name1, name2).toList();
+	List<String> names  = Stream.concat(name1, name2).toList();
+	System.out.println(names);
 	for (String s:names)   {
-	System.out.println(s);	
+	System.out.println(s);
 	}
 	
 	System.out.println("*************************************");

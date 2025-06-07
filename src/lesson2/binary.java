@@ -34,29 +34,26 @@ public class binary {
 //  For Practice
 	int num = 10101101;
 	isBinaryNum(num);
-	
+    
 	}
 
-    public static void isBinaryNum(int num)   {
-    int copyNum=num;
-    boolean isBinary=true;
-    while (copyNum!=0)   {
-    int rem = copyNum%10;	
-    if (rem>1)   {
-    isBinary=false;
-    break;
-    }
-    else {
-    copyNum=copyNum/10;	
-    }
-    }
-    if (isBinary)   {
-    System.out.println(num+" - is a Binary number");	
-    }
-    else {
-    System.out.println(num+" - is NOT a Binary number");	
-    }
-    
-    }
-
+	public static void isBinaryNum(int num)   {
+	boolean isBinary=true;
+	int copyNum=num;
+	while (copyNum!=0)   {
+	int rem = copyNum%10;
+	if (rem>1)   {
+	isBinary=false;	
+	}
+	else {
+	copyNum=copyNum/10;
+	}
+	}
+	if (isBinary)   {
+	System.out.println(num+" - is a Binary number");
+	}
+	else {
+	System.out.println(num+" - is NOT a Binary number");
+	}
+	}
 }
