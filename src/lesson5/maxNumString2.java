@@ -45,15 +45,13 @@ public class maxNumString2 {
 	ArrayList<Integer> arl = new ArrayList<Integer>();
 	String num="";
 	for (int i=0;i<s.length();i++)   {
-	char c  = s.charAt(i);	
+	char c = s.charAt(i);	
 	if (Character.isDigit(c))   {
 	num=num+c;	
 	}
-	else {
-	if (!num.equals(""))   {
+	else if (!num.equals(""))   {
 	arl.add(Integer.parseInt(num));
 	num="";
-	}
 	}
 	}
 	if (!num.equals(""))   {
@@ -70,8 +68,8 @@ public class maxNumString2 {
 	max=arl.get(j);	
 	}
 	}
-	System.out.println("Minimum number: "+min);
-	System.out.println("Maximum number: "+max);
+	System.out.println("Min number: "+min);
+	System.out.println("Max number: "+max);
 	
 	}
 

@@ -17,9 +17,9 @@ public class wordsReverse {
 //  For Practice
 	String str = "Test Automation Central";
 	String rev="";
-	String [] spls = str.split(" ");
-	for (int i=spls.length-1;i>=0;i--)   {
-	rev=rev+spls[i]+" ";	
+	String [] s = str.split(" ");
+	for (int i=s.length-1;i>=0;i--)   {
+	rev=rev+s[i]+" ";	
 	}
 	System.out.println(rev.trim());
 	

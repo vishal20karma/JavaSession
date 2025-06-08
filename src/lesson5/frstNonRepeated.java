@@ -1,5 +1,6 @@
 package lesson5;
 
+import java.util.HashMap;
 import java.util.LinkedHashMap;
 
 public class frstNonRepeated {
@@ -76,10 +77,9 @@ public class frstNonRepeated {
 	int count=0;
 	for (Character key:map.keySet())   {
 	if (map.get(key)==1)   {
-	count++;
+	count++;	
 	if (count==2)   {
-	System.out.println(key);
-	break;
+	System.out.println(key);	
 	}
 	}
 	}

@@ -22,9 +22,9 @@ public class sideBySide {
     System.out.println(list1);
     ArrayList<Integer> list2 = new ArrayList<Integer>(Arrays.asList(5,4,3,2,1));
     System.out.println(list2);
-    for (int i=0;i<list1.size();i++)   {
-    System.out.printf("%d : %d\n", list1.get(i), list2.get(i));	
-    }
+	for (int i=0;i<list1.size();i++)   {
+	System.out.printf("%d : %d\n", list1.get(i), list2.get(i));	
+	}
 	
 	}
 

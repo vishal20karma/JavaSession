@@ -46,7 +46,7 @@ public class maxNumString1 {
 	int max = arl.get(0);
 	for (int j=1;j<arl.size();j++)   {
 	if (arl.get(j)<min)   {
-	min=arl.get(j);
+	min=arl.get(j);	
 	}
 	else if (arl.get(j)>max)   {
 	max=arl.get(j);	

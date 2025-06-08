@@ -8,7 +8,7 @@ public class multiplicationTable {
 //  How to print multiplication table	
 /*	for (int i=1;i<=10;i++)   {
 	for (int j=1;j<=5;j++)   {	
-	System.out.printf("%-2d * %-2d = %-3d |",i,j,(i*j));   //It only works with Printf (print format)
+	System.out.printf("%-2d * %-2d = %-3d |", j,i,(j*i));   //It only works with Printf (print format)
 	}
 	System.out.println();
 	}   */
@@ -18,7 +18,7 @@ public class multiplicationTable {
 //  For Practice
 	for (int i=1;i<=10;i++)   {
 	for (int j=1;j<=5;j++)   {
-	System.out.printf("%-2d * %-2d = %-3d |", i,j,(i*j));	
+	System.out.printf("%-2d * %-2d = %-3d |", j,i,(j*i));	
 	}
 	System.out.println();
 	}

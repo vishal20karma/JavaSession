@@ -17,7 +17,7 @@ public class secondThirdMinMax {
 	System.out.println(sMax);   */
 	
 //  For Practice
-	List<Integer> list =  Arrays.asList(9,11,9,0,0,7,5,2,2,1,15);
+	List<Integer> list = Arrays.asList(9,11,9,0,0,7,5,2,2,1,15);
 	int sMin = list.stream().sorted().distinct().skip(1).findFirst().get();
 	System.out.println(sMin);
 	int sMax = list.stream().sorted(Collections.reverseOrder()).distinct().skip(1).findFirst().get();
