@@ -8,7 +8,7 @@ public class ABCDPattern1 {
 //  ASCII value of A=65, a=97	
 //  How to print ABCDEF pattern
 /*  int alpha = 65;
-    String s="";
+    String s = "";
 	for (int i=0;i<=25;i++)   {
 	s = s+(char)alpha+" ";
 	System.out.println(s);
@@ -16,8 +16,8 @@ public class ABCDPattern1 {
 	}   */
 	
 //  For Practice
-	int alpha=65;
-	String s="";
+	int alpha = 65;
+	String s = "";
 	for (int i=0;i<=25;i++)   {
 	s=s+(char)alpha+" ";
 	System.out.println(s);

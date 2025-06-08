@@ -37,8 +37,7 @@ public class lesson3 {
 //  Concatenate and sort, once Stream is modified then again operations will not work, therefore created c2	
 /*	Stream<String> c2 = Stream.concat(a.stream(), b.stream());
 	boolean flag = c2.anyMatch(s->s.equalsIgnoreCase("Sushant"));
-	System.out.println(flag);
-	Assert.assertTrue(flag);   */
+	System.out.println(flag);   */
 	
 //  For Practice
 	Stream<String> c2 = Stream.concat(a.stream(), b.stream());

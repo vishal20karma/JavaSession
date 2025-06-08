@@ -10,7 +10,7 @@ public class lesson4 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-//  Printing first String
+//  Printing first String from the Streams
 //	Stream.of("Vikrant","Ravi","Kia","Rohit","Anand").limit(1).forEach(s->System.out.println(s));	
 	Stream.of("Vikrant","Ravi","Kia","Rohit","Anand").limit(1).forEach(s->System.out.println(s));
 	

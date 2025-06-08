@@ -7,6 +7,14 @@ public class lesson2 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
+/*	ArrayList<String> a = new ArrayList<String>();
+	a.add("Vishal");
+	a.add("Vivek");
+	a.add("Ranjan");
+	a.add("Suman");
+	a.add("Sushant");   */
+		
+//  For Practice
 	ArrayList<String> a = new ArrayList<String>();
 	a.add("Vishal");
 	a.add("Vivek");

@@ -19,7 +19,7 @@ public class starPattern1 {
 	String str="";
 	for (int i=0;i<s.length();i++)   {
 	char c = s.charAt(i);
-	str=str+c+" ";
+	str=str+c+" ";	
 	System.out.println(str);
 	}
 	
@@ -52,7 +52,7 @@ public class starPattern1 {
 	}   */
 	
 //  For Practice
-	for (int i=0;i<=4;i++)   {
+	for (int i=0;i<5;i++)   {
 	for (int j=4;j>=i;j--)   {
 	System.out.print("* ");	
 	}
@@ -74,6 +74,14 @@ public class starPattern1 {
 	System.out.println("************************");
 	
 //  Square/Rectangle Star Pattern (Nested Loop Method)	
+/*	for (int i=0;i<5;i++)   {
+	for (int j=0;j<5;j++)   {
+	System.out.print("* ");	
+	}
+	System.out.println();
+	}   */
+	
+//  For Practice
 	for (int i=0;i<5;i++)   {
 	for (int j=0;j<5;j++)   {
 	System.out.print("* ");	

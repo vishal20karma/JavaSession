@@ -8,7 +8,7 @@ public class lesson1 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+//  Basic operations in Streams
 /*	ArrayList<String> a = new ArrayList<String>();
 	a.add("Vishal");
 	a.add("Vivek");

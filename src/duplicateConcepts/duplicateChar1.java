@@ -9,14 +9,14 @@ public class duplicateChar1 {
 	s=s.toLowerCase();
 	char [] c = s.toCharArray();
 	for (int i=0;i<s.length();i++)   {
-	int count=1;
+	int count=0;
 	for (int j=i+1;j<s.length();j++)   {
 	if (c[i]==c[j] && c[i]!=' ')   {
 	count++;
 	c[j]='0';
 	}
 	}
-	if (c[i]!='0' && count>1)   {
+	if (c[i]!='0' && count>0)   {
 	System.out.println(c[i]+"-"+count+"-"+s.indexOf(c[i]));
 	System.out.println(count);
 	}
@@ -25,18 +25,19 @@ public class duplicateChar1 {
 //  For Practice	
 	String s = "My Great Responsibiltiy";
 	s=s.toLowerCase();
-	char []  c = s.toCharArray();
+	char [] c = s.toCharArray();
 	for (int i=0;i<s.length();i++)   {
-	int count=1;
+	int count=0;
 	for (int j=i+1;j<s.length();j++)   {
 	if (c[i]==c[j] && c[i]!=' ')   {
-	count++;
+	count++;	
 	c[j]='0';
 	}
 	}
-	if (c[i]!='0' && count>1)   {
-	System.out.println(c[i]+"-"+count+"-"+s.indexOf(c[i]));	
+	if (c[i]!='0' && count>0)   {
+	System.out.println(c[i]+" : "+count+" : "+s.indexOf(c[i]));	
 	}
 	}
+	
 	}
 }
