@@ -4,7 +4,7 @@ public class duplicateChar1 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+//  How to identify repeating characters
 /*	String s = "My Great Responsibility";
 	s=s.toLowerCase();
 	char [] c = s.toCharArray();

@@ -39,11 +39,11 @@ public class duplicateChar4 {
 	char c = s.charAt(i);	
 	if (c!=' ')   {
 	if (hm.containsKey(c))   {
-	int oldFreq = hm.get(c);
-	int newFreq = oldFreq+1;
+	int oldFreq=hm.get(c);	
+	int newFreq=oldFreq+1;
 	hm.put(c, newFreq);
 	}
-	else {
+	else   {
 	hm.put(c, 1);	
 	}
 	}
@@ -51,7 +51,7 @@ public class duplicateChar4 {
 	System.out.println(hm);
 	for (Character key:hm.keySet())   {
 	if (hm.get(key)>1)   {
-	System.out.println(key+" : "+hm.get(key));	
+	System.out.println("Duplicate- "+key+" : "+hm.get(key));	
 	}
 	}
 	
@@ -75,22 +75,22 @@ public class duplicateChar4 {
 	}   */
 	
 //  For Practice
-	String str = "My Great Responsibilities";
+	String str = "My Greatest Responsibilities";
 	str=str.toLowerCase();
 	HashMap<Character, Integer> map = new HashMap<Character, Integer>();
 	for (int i=0;i<str.length();i++)   {
-	char c = str.charAt(i);
+	char c = str.charAt(i);	
 	if (c!=' ')   {
-	map.put(c, map.getOrDefault(c, 0)+1);	
+	map.put(c, hm.getOrDefault(c, 0)+1);
 	}
 	}
 	System.out.println(map);
 	for (Character key:map.keySet())   {
 	if (map.get(key)>1)   {
-	System.out.println("Duplicate- "+key+" : "+map.get(key));
+	System.out.println("Duplicate-"+key+" : "+map.get(key));
 	}
 	}
-	
+		
 	}
 
 }

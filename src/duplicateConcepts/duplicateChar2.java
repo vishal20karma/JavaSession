@@ -24,8 +24,8 @@ public class duplicateChar2 {
 	char c = 'i';
 	int count=0;
 	for (int i=0;i<str.length();i++)   {
-	char ch = str.charAt(i);	
-	if (ch==c)   {
+	char chr = str.charAt(i);	
+	if (chr==c)   {
 	count++;	
 	}
 	}

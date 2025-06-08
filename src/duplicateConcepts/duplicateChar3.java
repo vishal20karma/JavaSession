@@ -24,10 +24,10 @@ public class duplicateChar3 {
 	String str = "My Great Responsibility";
 	char [] c = str.toCharArray();
 	HashSet<Character> hs = new HashSet<Character>();
-	int count=1;
 	for (Character ch:c)   {
-	if (ch!=' ' && hs.add(ch)==false)   {
-	count++;	
+	int count=1;
+	if ((ch!=' ') && (hs.add(ch)==false))   {
+	count++;
 	System.out.println(ch+" : "+count);
 	}
 	}

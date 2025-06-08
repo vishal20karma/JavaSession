@@ -35,11 +35,11 @@ public class IsogramString {
 	System.out.println(b);
 	
 	}
-		
+
 	public static boolean isogramOrNot(String s)   {
 	LinkedHashMap<Character, Integer> hm = new LinkedHashMap<Character, Integer>();
 	for (int i=0;i<s.length();i++)   {
-	char c = s.charAt(i);
+	char c = s.charAt(i);	
 	hm.put(c, hm.getOrDefault(c, 0)+1);
 	}
 	System.out.println(hm);
@@ -48,7 +48,6 @@ public class IsogramString {
 	return false;	
 	}
 	}
-	return true;	
+	return true;
 	}
-
 }

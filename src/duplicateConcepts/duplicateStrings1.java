@@ -25,9 +25,8 @@ public class duplicateStrings1 {
 		
 //  For Practice
 	String s = "Google is the most popular search engine in the most world. Bing most comes at number two most";
-	String ls = s.toLowerCase();
-	String [] spls = ls.split(" ");
-	System.out.println(spls.length);
+	s=s.toLowerCase();
+	String [] spls = s.split(" ");
 	for (int i=0;i<spls.length;i++)   {
 	int count=1;
 	for (int j=i+1;j<spls.length;j++)   {
@@ -37,9 +36,10 @@ public class duplicateStrings1 {
 	}
 	}
 	if (spls[i]!="0" && count>1)   {
-	System.out.println(spls[i]+" : "+count);	
+	System.out.println(spls[i]+" : "+count);
+	}	
 	}
-	}
+	
 	}
 
 }

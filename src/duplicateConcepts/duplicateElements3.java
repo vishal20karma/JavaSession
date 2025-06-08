@@ -24,13 +24,14 @@ public class duplicateElements3 {
 	String [] s1 = {"c","java","python","ruby","c++","cobol","c","java"};
 	Set<String> store = new HashSet<String>();
 	for (String names:s1)   {
-	store.add(names);	
+	store.add(names);
 	}
 	System.out.println(store);
-	String s2 [] = store.toArray(size->new String [size]);
+	String [] s2 = store.toArray(size->new String [size]);
 	for (String s3:s2)   {
 	System.out.println(s3);	
 	}
+	
 	}
 	
 }
