@@ -39,8 +39,8 @@ public class highestFrequency1 {
 	s=s.toLowerCase();
 	HashMap<Character, Integer> hm = new HashMap<Character, Integer>();
 	for (int i=0;i<s.length();i++)   {
-	char c = s.charAt(i);	
-	if (hm.containsKey(c) && c!=' ')   {
+	char c = s.charAt(i);
+	if (c!=' ' && hm.containsKey(c))   {
 	int oldFreq = hm.get(c);	
 	int newFreq = oldFreq+1;
 	hm.put(c, newFreq);
@@ -49,8 +49,8 @@ public class highestFrequency1 {
 	hm.put(c, 1);	
 	}
 	}
-	char maxFreq=s.charAt(0);
-	char scndMaxFreq=s.charAt(0);
+	char maxFreq = s.charAt(0);
+	char scndMaxFreq = s.charAt(0);
 	for (Character key:hm.keySet())   {
 	if (hm.get(key)>hm.get(maxFreq))   {
 	maxFreq=key;	
@@ -60,7 +60,7 @@ public class highestFrequency1 {
 	}
 	}
 	System.out.println("Max frequency: "+maxFreq);
-	System.out.println("Second Max: "+scndMaxFreq);
+	System.out.println("Second Max frequency: "+scndMaxFreq);
 	
 	}
 

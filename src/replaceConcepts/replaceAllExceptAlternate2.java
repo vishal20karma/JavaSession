@@ -21,13 +21,14 @@ public class replaceAllExceptAlternate2 {
 	String str = "56K93e5545s2h1u76";
 	String result="";
 	for (int i=0;i<str.length();i++)   {
-	char c = str.charAt(i);
+	char c = str.charAt(i);	
 	if (!(c>='0' && c<='9'))   {
-//	if ((c>='A' && c<='Z') || (c>='a' && c<='z'))   {   //This is alternate to upper code
+//	if ((c>='A' && c<='Z') || (c>='a' && c<='z') )   {
 	result=result+c;	
 	}
 	}
 	System.out.println(result);
+	
 	}
 
 }

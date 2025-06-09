@@ -28,7 +28,7 @@ public class reverseAlternate2 {
 		
 //  For Practice
 	String output = "The taerG Indian ymonocE With elbalacS Reports derapmoC To dlroW";	
-	String str  = "The Great Indian Economy With Scalable Reports Compared To World";
+	String str = "The Great Indian Economy With Scalable Reports Compared To World";
 	String [] spls = str.split(" ");
 	String result="";
 	for (int i=0;i<spls.length;i++)   {

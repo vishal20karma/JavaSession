@@ -20,7 +20,7 @@ public class replaceAllExceptAlternate1 {
 	String str = "K9e5s2h1u";
 	String result="";
 	for (int i=0;i<str.length();i++)   {
-	String s = str.substring(i, i+1);
+	String s = str.substring(i, i+1);	
 	result=result+s;
 	i++;
 	}

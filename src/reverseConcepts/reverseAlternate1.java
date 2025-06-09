@@ -6,7 +6,7 @@ public class reverseAlternate1 {
 		// TODO Auto-generated method stub
 
 //  How to reverse the alternate words in a String
-/*	String Output = "The taerG Indian ymonocE";
+/*	String output = "The taerG Indian ymonocE";
 	String str = "The Great Indian Economy";
 	StringBuilder sb = new StringBuilder();
 	String [] spls = str.split(" ");
@@ -22,7 +22,7 @@ public class reverseAlternate1 {
 	System.out.println(sb.toString().trim());   */
 		
 //  For Practice
-	String Output = "The taerG Indian ymonocE";
+	String output = "The taerG Indian ymonocE";
 	String str = "The Great Indian Economy";
 	String [] spls = str.split(" ");
 	StringBuilder sb = new StringBuilder();

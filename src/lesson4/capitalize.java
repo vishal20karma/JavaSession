@@ -22,7 +22,7 @@ public class capitalize {
 	else if (str.length()>1)   {   //To check if string greater than one character and do not have single/double/tripple 'spaces' as a character (because already split by space has been used)
 	String [] spls = str.split("\\s");
 	for (String s:spls)   {
-	String first = s.substring(0, 1).toUpperCase();	
+	String first = s.substring(0, 1).toUpperCase();   //Use of index in Substring range means it will count one less, that means here it is 0th index
 	String rem = s.substring(1);
 	result=result+first+rem+" ";
 	}

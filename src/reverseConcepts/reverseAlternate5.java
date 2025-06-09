@@ -43,19 +43,20 @@ public class reverseAlternate5 {
     String [] spls = str.split(" ");
     StringBuilder sb = new StringBuilder();
     for (int i=0;i<spls.length;i++)   {
-    String s = spls[i];
-    int mid1 = spls.length/2;
-    int mid2 = spls.length/2-1;
-    int mid3 = spls.length/2+1;
-    if ((spls.length%2==0 && (i==mid1 || i==mid2)
-    || (spls.length%2==1 && (i==mid1 || i==mid2 || i==mid3))))   {
-    sb.append(new StringBuilder(s).reverse()+" ");
+    String s = spls[i];	
+    int mid1=spls.length/2;
+    int mid2=spls.length/2-1;
+    int mid3=spls.length/2+1;
+    if (spls.length%2==0 && (i==mid1 || i==mid2)   
+    || (spls.length%2==1 & (i==mid1 || i==mid2 || i==mid3)))   {
+    sb.append(new StringBuilder(s).reverse()+" ");	
     }
     else {
     sb.append(s+" ");	
     }
     }
-    System.out.println(sb.toString().trim());	
+    System.out.println(sb.toString().trim());
+    
     }
 
 }

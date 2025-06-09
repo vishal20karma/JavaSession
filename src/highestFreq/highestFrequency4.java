@@ -10,24 +10,18 @@ public class highestFrequency4 {
 /*	String [] s = {"c","java","python","ruby","java","c++","cobol","c","java"};
 	HashMap<String, Integer> hm = new HashMap<String, Integer>();
 	for (int i=0;i<s.length;i++)   {
-	String str = s[i];
-	if (hm.containsKey(str))   {
-	int oldFreq = hm.get(str);	
-	int newFreq = oldFreq+1;
-	hm.put(str, newFreq);
+	String str = s[i];	
+	hm.put(str, hm.getOrDefault(str, 0)+1);
 	}
-	else {
-	hm.put(str, 1);	
-	}
-	}
-    String maxFreq = s[0];
+	System.out.println(hm);
+	String maxFreq = s[0];
 	String scndMaxFreq = s[0];
 	for (String key:hm.keySet())   {
 	if (hm.get(key)>hm.get(maxFreq))   {
-	maxFreq = key;	
+	maxFreq=key;	
 	}
 	else if (hm.get(key)>hm.get(scndMaxFreq) && hm.get(key)<hm.get(maxFreq))   {
-	scndMaxFreq = key;	
+	scndMaxFreq=key;	
 	}
 	}
 	System.out.println("Max frequency: "+maxFreq);
@@ -38,15 +32,9 @@ public class highestFrequency4 {
 	HashMap<String, Integer> hm = new HashMap<String, Integer>();
 	for (int i=0;i<s.length;i++)   {
 	String str = s[i];	
-	if (hm.containsKey(str))   {
-	int oldFreq = hm.get(str);
-	int newFreq = oldFreq+1;
-	hm.put(str, newFreq);
+	hm.put(str, hm.getOrDefault(str, 0)+1);
 	}
-	else {
-	hm.put(str, 1);	
-	}
-	}
+	System.out.println(hm);
 	String maxFreq = s[0];
 	String scndMaxFreq = s[0];
 	for (String key:hm.keySet())   {
