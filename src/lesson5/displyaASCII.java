@@ -34,7 +34,7 @@ public class displyaASCII {
 	for (int i=0;i<str.length();i++)   {
 	char c = str.charAt(i);	
 	if (c!=' ')   {
-	int k = (char)c;	
+	int k = (int)c;	
 	sum=sum+k;
 	System.out.println("ASCII Value of "+c+" : "+k);
 	}

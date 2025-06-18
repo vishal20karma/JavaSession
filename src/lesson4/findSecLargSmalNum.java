@@ -44,7 +44,7 @@ public class findSecLargSmalNum {
 	scndLargest=num[i];	
 	}
 	if (num[i]<smallest)   {
-	smallest=scndSmallest;	
+	scndSmallest=smallest;	
 	smallest=num[i];
 	}
 	else if (num[i]<scndSmallest && num[i]>smallest)   {
