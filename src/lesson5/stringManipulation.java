@@ -51,8 +51,8 @@ public class stringManipulation {
 	System.out.println(str.lastIndexOf(""));
 	a.concat(b);
 	System.out.println(a);   //It will not return a+b, it will only give the value of a only because we not assigned any object to it
-	String c = a.concat(b);
-	System.out.println(c);   //It will return a+b because a new string object 'c' has been assigned
+	a = a.concat(b);
+	System.out.println(a);   //It will return a+b because a new string object 'c' has been assigned
 	
 	}
 
