@@ -23,9 +23,12 @@ public class dataTypes {
 	int myNum=5;
 	String s = "Vishal Vishwakarma";
 	char c = 'k';
-	float f = (float) 5.99;
+	float f = 5.99f;
 	double d = 5.11;
 	boolean b = true;
+//  What is main difference between float and double ?
+/*	float takes 32 bit space, double takes 64 bit space
+	flot takes 6–7 decimal digits, double takes 15–16 decimal digits   */
 	
 	System.out.println(myNum);
 	System.out.println(s);
@@ -33,6 +36,7 @@ public class dataTypes {
 	System.out.println(f);
 	System.out.println(d);
 	System.out.println(b);
+		
 	
 	}
 
