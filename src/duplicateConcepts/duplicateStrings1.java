@@ -36,8 +36,8 @@ public class duplicateStrings1 {
 	}
 	}
 	if (spls[i]!="0" && count>1)   {
-	System.out.println(spls[i]+" : "+count);
-	}	
+	System.out.println(spls[i]+" : "+count);	
+	}
 	}
 	
 	}

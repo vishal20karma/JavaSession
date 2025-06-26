@@ -9,7 +9,7 @@ public class findVowels {
 //  How to find the vowels in a string with user input (scanner)
 /*	Scanner s = new Scanner(System.in);
 //  Input from user
-    System.out.print("Enter a string: ");
+    System.out.print("Enter a string:");
     String input = s.nextLine();
 //  Define vowels
     String vowels = "AEIOUaeiou";
@@ -24,16 +24,16 @@ public class findVowels {
 		
 //  For Practice
     Scanner s = new Scanner(System.in);
-    System.out.println("Enter a string: ");
-    String input = s.nextLine();
-    String vowels = "AEIOUaeiou";
-    System.out.println("Vowels in the string are: ");
-    for (int i=0;i<input.length();i++)   {
-    char c = input.charAt(i);	
-    if (vowels.indexOf(c)!=-1)   {
-    System.out.print(c+" ");	
-    }
-    }
+	System.out.println("Enter a string:");
+	String input = s.nextLine();
+	String vowels = "AEIOUaeiou";
+	System.out.println("Vowels in the String are: ");
+	for (int i=0;i<input.length();i++)   {
+	char c = input.charAt(i);	
+	if (vowels.indexOf(c)!=-1)   {
+	System.out.print(c+" ");	
+	}
+	}
 	s.close();
 	
 	}

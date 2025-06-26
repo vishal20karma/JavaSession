@@ -29,14 +29,14 @@ public class extractIntMulti {
 	System.out.println("Multiply result:"+evenSum*oddSum);   */
 		
 //  For Practice - Even-10, Odd-19, Output-190
-	String str  = "js12l 91hj kjs7 ks72";
-	String [] spls = str.split(" ");
+	String str = "js12l 91hj kjs7 ks72";
 	int evenSum=0;
 	int oddSum=0;
+	String [] spls = str.split(" ");
 	for (int i=0;i<spls.length;i++)   {
-	String s = spls[i];	
+	String s = spls[i];
 	for (int j=0;j<s.length();j++)   {
-	char c = s.charAt(j);	
+	char c = s.charAt(j);
 	if (Character.isDigit(c))   {
 	int dgt = Character.getNumericValue(c);
 	if (i%2==0)   {

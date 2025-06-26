@@ -37,7 +37,7 @@ public class extractIntAdd2 {
 	String num="";
 	int sum=0;
 	for (int i=0;i<spls.length;i++)   {
-	String s = spls[i];	
+	String s = spls[i];
 	if (i%2==1)   {
 	for (int j=0;j<s.length();j++)   {
 	char c = s.charAt(j);	
@@ -52,7 +52,7 @@ public class extractIntAdd2 {
 	}
 	}
 	if (!num.equals(""))   {
-	sum=sum+Integer.parseInt(num);	
+	sum=sum+Integer.parseInt(num);
 	}
 	System.out.println(sum);
 	

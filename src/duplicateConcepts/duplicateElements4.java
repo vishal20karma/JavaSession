@@ -34,9 +34,8 @@ public class duplicateElements4 {
 	System.out.println(strList);   */
 	
 //  For Practice
-	List<String> strList = al.stream().distinct().collect(Collectors.toList());	
+	List<String> strList = al.stream().distinct().collect(Collectors.toList());
 	System.out.println(strList);
-	
 	}
 
 }

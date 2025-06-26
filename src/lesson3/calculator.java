@@ -30,12 +30,12 @@ public class calculator {
 		
 //  For Practice
 	Scanner s = new Scanner(System.in);
-	System.out.println("Enter the two numbers:");
+	System.out.println("Enter two numbers:");
 	int a = s.nextInt();
 	int b = s.nextInt();
-	System.out.println("Enter the operator for -(+,-,*,/,%)");
+	System.out.println("Enter an operatior -(+,-,*,/,%)");
 	char op = s.next().charAt(0);
-	switch (op) {
+	switch (op)   {
 	case '+' : System.out.println(a+b);
 	break;
 	case '-' : System.out.println(a-b);
@@ -48,7 +48,6 @@ public class calculator {
 	break;
 	default : System.out.println("Invalid Input");
 	}
-	
 	}
 
 }

@@ -19,14 +19,16 @@ public class printRangeWLoop {
 		
 //  For Practice
 	printNumb(5, 50);
-    
+	
 	}
 
-	public static void printNumb(int stNum, int endNum)   {
-	if (stNum<=endNum)   {
-	System.out.println(stNum);
-	stNum++;
-	printNumb(stNum, endNum);
-	}
-	}
+    public static void printNumb(int stNum, int endNum)   {
+    if (stNum<=endNum)   {
+    System.out.println(stNum);
+    stNum++;
+    printNumb(stNum, endNum);
+    }
+    
+    }
+
 }

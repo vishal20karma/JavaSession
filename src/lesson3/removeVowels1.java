@@ -31,7 +31,7 @@ public class removeVowels1 {
 	
 //  For Practice
 	String str2 = "Test Automation Central New";
-	String vowels="AEIOUaeiou";
+	String vowels = "AEIOUaeiou";
 	String result="";
 	for (int i=0;i<str2.length();i++)   {
 	char c = str2.charAt(i);	

@@ -34,6 +34,20 @@ public class duplicateElements1 {
     System.out.println("***********************************");
 	
 //  By Using HashMap
+/*  String [] str = {"c","java","python","ruby","c++","cobol","c","java",".net"};
+	HashMap<String, Integer> hm = new HashMap<String, Integer>();
+	for (int i=0;i<str.length;i++)   {
+	String st = str[i];	
+	hm.put(st, hm.getOrDefault(st, 0)+1);
+	}
+	System.out.println(hm);
+    for (String key:hm.keySet() )   {
+    if (hm.get(key)>1)   {
+    System.out.println(key+" : "+hm.get(key));	
+    }
+    }   */
+    
+//  For Practice
     String [] str = {"c","java","python","ruby","c++","cobol","c","java",".net"};
 	HashMap<String, Integer> hm = new HashMap<String, Integer>();
 	for (int i=0;i<str.length;i++)   {
@@ -41,13 +55,11 @@ public class duplicateElements1 {
 	hm.put(st, hm.getOrDefault(st, 0)+1);
 	}
 	System.out.println(hm);
-	for (String key:hm.keySet())   {
-	int count=1;
-	if (hm.get(key)>1)   {
-	count++;
-	System.out.println(key+" : "+count);
-	}
-	}
+    for (String key:hm.keySet() )   {
+    if (hm.get(key)>1)   {
+    System.out.println(key+" : "+hm.get(key));	
+    }
+    }
 	
 	}
 

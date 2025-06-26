@@ -28,7 +28,7 @@ public class integerSorting {
 	for (int i=0;i<num.length-1;i++)   {
 	for (int j=0;j<num.length-1-i;j++)   {
 	if (num[j]>num[j+1])   {
-	int temp=num[j];	
+	int temp=num[i];
 	num[j]=num[j+1];
 	num[j+1]=temp;
 	}
@@ -38,7 +38,7 @@ public class integerSorting {
 	for (int number:num)   {
 	arl.add(number);	
 	}
-	System.out.println(arl);	
+	System.out.println(arl);
 	
 	}
 
