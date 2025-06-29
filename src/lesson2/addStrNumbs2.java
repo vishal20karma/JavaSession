@@ -27,14 +27,14 @@ public class addStrNumbs2 {
 	}
 	System.out.println(sum);   */
 		
-//  For Practice
+//  For Practice - Output-27
 	String [] str = {"2ab", "KK1", "hg22u", "rr2"};
 	String num="";
 	int sum=0;
 	for (int i=0;i<str.length;i++)   {
 	String s = str[i];	
 	for (int j=0;j<s.length();j++)   {
-	char c = s.charAt(j);
+	char c = s.charAt(j);	
 	if (Character.isDigit(c))   {
 	num=num+c;	
 	}

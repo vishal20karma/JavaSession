@@ -15,11 +15,11 @@ public class wordsReverse {
 	System.out.println(rev.trim());   */
 		
 //  For Practice
-	String str = "Test Automation Central";
-	String rev="";
-	String [] s = str.split(" ");
-	for (int i=s.length-1;i>=0;i--)   {
-	rev=rev+s[i]+" ";	
+	String str  = "Test Automation Central";
+	String rev = "";
+	String [] spls = str.split(" ");
+	for (int i=spls.length-1;i>=0;i--)   {
+	rev=rev+spls[i]+" ";	
 	}
 	System.out.println(rev.trim());
 	

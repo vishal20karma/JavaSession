@@ -38,8 +38,8 @@ public class minMaxNumber {
 //  For Practice
 	int a=10,b=20,c=30;
 	int mx = maxNum(a, b, c);
-	System.out.println(mx);
-	int mn = minNum(a, b, c);
+    System.out.println(mx);
+    int mn = minNum(a, b, c);
 	System.out.println(mn);
 	
 	}
@@ -52,19 +52,19 @@ public class minMaxNumber {
 	c--;
 	max++;
 	}
-	return max;
+	return max;	
 	}
 
-    public static int minNum(int a, int b, int c)   {
-    int min=0;
-    while (a>0 && b>0 && c>0)   {
-    a--;
-    b--;
-    c--;
-    min++;
-    }
-    return min;
-    }
+	public static int minNum(int a, int b, int c)   {
+	int min=0;
+	while (a>0 && b>0 && c>0)   {
+	a--;
+	b--;
+	c--;
+	min++;
+	}
+	return min;	
+	}
 
 }
     

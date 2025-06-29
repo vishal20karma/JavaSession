@@ -27,22 +27,22 @@ public class palindromeNum {
 		
 //  For Practice
 	int num = 3456543;
-	int pNum = palindrome(num);
-	if (num==pNum)   {
-	System.out.println(num+" - is a Palindrome number");	
+	int pNum=palindrome(num);
+	if (pNum==num)   {
+	System.out.println(num+" - a Palindrome number");	
 	}
-	else {
-	System.out.println(num+" - is NOT a Palindrome number");	
+	else   {
+	System.out.println(num+" - is NOT a Palindrome number");
 	}
 	}
-
-	public static int palindrome(int num)   {
-	int rev=0;
-	while (num!=0)   {
-	int r = num%10;	
-	rev=rev*10+r;
-	num=num/10;
-	}
-	return rev;
-	}
+	
+    public static int palindrome(int num)   {
+    int rev=0;
+    while (num!=0)   {
+    int r = num%10;	
+    rev=rev*10+r;
+    num=num/10;
+    }
+    return rev;
+    }
 }

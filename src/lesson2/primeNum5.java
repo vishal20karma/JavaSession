@@ -27,12 +27,12 @@ public class primeNum5 {
 	}   */
 		
 //  For Practice
-	Scanner s = new Scanner(System.in);	
-	System.out.println("Enter the two numbers:");
-	int low = s.nextInt();	
+	Scanner s = new Scanner(System.in);
+    System.out.println("Enter the two numbers:");
+	int low = s.nextInt();
 	int high = s.nextInt();
 	for (int i=low;i<=high;i++)   {
-	int count=0;	
+	int count=0;
 	for (int j=1;j<=i;j++)   {
 	if (i%j==0)   {
 	count++;	
@@ -45,8 +45,7 @@ public class primeNum5 {
 	System.out.println(i+" - is NOT a Prime number");	
 	}
 	}
-	s.close();
-
+	
 	}
 
 }

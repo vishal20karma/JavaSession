@@ -28,14 +28,13 @@ public class ifStringIsInt2 {
 	
 	}
 
-    public static boolean stringOrInt(String s)   {
-    try {
-    Integer.parseInt(s);
-    return true;
-    }
-    catch (Exception e)   {
-    return false;	
-    }
-    }
-
+	public static boolean stringOrInt(String s)   {
+	try {
+	Integer.parseInt(s);
+	return true;
+	}
+	catch (Exception e) {
+	return false;	
+	}
+	}
 }

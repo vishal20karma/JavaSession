@@ -12,12 +12,12 @@ public class armstrong2 {
 	
 	}
 
-    public static void armStr(int arm, int dg)   {
+    public static void armStr(int arm, int dgt)   {
     int temp=arm;
     int sum=0;
     while (temp!=0)   {
     int r = temp%10;	
-    sum = (int) (sum + Math.pow(r, dg));
+    sum = (int) (sum + Math.pow(r, dgt));
     temp=temp/10;
     }
     if (sum==arm)   {
@@ -30,7 +30,7 @@ public class armstrong2 {
 //  For Practice
 	int arm = 153;
 	int dgt = Integer.toString(arm).length();
-	armStr(arm, dgt);
+    armStr(arm, dgt);
 	
 	}
 
@@ -46,8 +46,9 @@ public class armstrong2 {
     System.out.println(arm+" - is an Armstrong number");	
     }
     else {
-    System.out.println(arm+" - is NOT an Armstrong number");
+    System.out.println(arm+" - is NOT an Armstrong number");	
     }
     }
+
 }
 

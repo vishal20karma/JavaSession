@@ -7,7 +7,7 @@ public class splitTrim {
 
 //  How to split and trim
 /*	String s = "Vishal Kumar Vishwakarma";
-	String [] slpStrings1 = s.split(" ");   //If space used to split, then it will remove the spaces also
+	String [] slpStrings1 = s.split(" ");   //If space used to split, then it will remove all the spaces
 	System.out.println(slpStrings1[0]);
 	System.out.println(slpStrings1[1]);
 	System.out.println(slpStrings1[2]);   */
@@ -33,7 +33,7 @@ public class splitTrim {
 	System.out.println("************************");
 	
 /*	String snm1 = slpStrings2[0].trim();   //How to remove the extra spaces
-	String snm2 = slpStrings2[1].trim();   //After trim, values are thrown into String not Arrays
+	String snm2 = slpStrings2[1].trim();   //After trim, values are thrown into String not Arrays because index used
 	System.out.println(snm1);
 	System.out.println(snm2);   */
 	

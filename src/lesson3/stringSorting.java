@@ -24,9 +24,9 @@ public class stringSorting {
 	String s = "programming";
 	char [] chr = s.toCharArray();
 	for (int i=0;i<chr.length-1;i++)   {
-	for (int j=0;j<chr.length-1-i;j++)   {	
-	if (chr[j]<chr[j+1])   {
-	char temp=chr[j];	
+	for (int j=0;j<chr.length-1-i;j++)   {
+	if (chr[j]>chr[j+1])   {
+	char temp=chr[j];
 	chr[j]=chr[j+1];
 	chr[j+1]=temp;
 	}

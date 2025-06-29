@@ -19,8 +19,8 @@ public class printRangeWLoop {
 		
 //  For Practice
 	printNumb(5, 50);
-	
-	}
+    
+    }
 
     public static void printNumb(int stNum, int endNum)   {
     if (stNum<=endNum)   {
@@ -28,7 +28,5 @@ public class printRangeWLoop {
     stNum++;
     printNumb(stNum, endNum);
     }
-    
     }
-
 }

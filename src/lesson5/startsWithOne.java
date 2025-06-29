@@ -35,25 +35,23 @@ public class startsWithOne {
 	int [] number = {67, 1, 12, 23, 21, 10};
 	List<Integer> startsWithOne = getNumberList(number);
 	System.out.println(startsWithOne);
-	
 	}
 	
 	public static int getFirstDigit(int num)   {
 	while (num>=10)   {
-	num=num/10;
+	num=num/10;	
 	}
 	return num;
 	}
 
-    public static List<Integer> getNumberList(int [] number)   {
-    ArrayList<Integer> arl = new ArrayList<Integer>();	
-    for (int num:number)   {
-    int n = getFirstDigit(num);
-    if (n==1)   {
-    arl.add(num);	
-    }
-    }
-    return arl;
-    }
-
+	public static ArrayList<Integer> getNumberList(int [] number)   {
+	ArrayList<Integer> arl = new ArrayList<Integer>();
+	for (int num:number)   {
+	int n = getFirstDigit(num);	
+	if (n==1)   {
+	arl.add(num);	
+	}
+	}
+	return arl;
+	}
 }

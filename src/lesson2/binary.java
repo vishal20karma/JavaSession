@@ -34,12 +34,12 @@ public class binary {
 //  For Practice
 	int num = 10101101;
 	isBinaryNum(num);
-	
+    
 	}
 
     public static void isBinaryNum(int num)   {
-    int copyNum=num;
-    boolean isBinary = true;
+    boolean isBinary=true;
+    int copyNum=num;	
     while (copyNum!=0)   {
     int rem = copyNum%10;	
     if (rem>1)   {
@@ -51,13 +51,10 @@ public class binary {
     }
     }
     if (isBinary)   {
-    System.out.println(num+" - is a Binary number");	
+    System.out.println(num+" - is a Binary number");
     }
     else {
     System.out.println(num+" - is NOT a Binary number");	
     }
-    
     }
-
-
 }

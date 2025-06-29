@@ -29,9 +29,9 @@ public class primeNum1 {
 	}
 	}
 	if (count==2)   {
-	System.out.println(pNum+" - is a Prime number");
+	System.out.println(pNum+" - is a Prime number");	
 	}
-	else {
+	else   {
 	System.out.println(pNum+" - is NOT a Prime number");	
 	}
 	

@@ -3,6 +3,7 @@ package lesson4;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class secondThirdMinMax {
 
@@ -37,6 +38,7 @@ public class secondThirdMinMax {
 	System.out.println(tMin);
 	int tMax = list2.stream().sorted(Collections.reverseOrder()).distinct().skip(2).findFirst().get();
 	System.out.println(tMax);
+	
 	}
 
 }

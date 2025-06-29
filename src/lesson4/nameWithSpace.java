@@ -18,7 +18,7 @@ public class nameWithSpace {
 		
 //  For Practice
 	String s = "l ahs iV";
-	String name="";
+	String name = "";
 	for (int i=s.length()-1;i>=0;i--)   {
 	char c = s.charAt(i);	
 	if (c!=' ')   {

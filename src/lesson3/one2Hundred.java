@@ -2,7 +2,7 @@ package lesson3;
 
 import java.util.stream.IntStream;
 
-public class one2Hundred1 {
+public class one2Hundred {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

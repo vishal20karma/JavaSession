@@ -19,7 +19,7 @@ public class addStrNumbs3 {
 	int sum=0;
 	String [] spls = s1.split(" ");
 	for (int i=0;i<spls.length;i++)   {
-	sum=sum+Integer.parseInt(spls[i]);	
+	sum=sum+Integer.parseInt(spls[i]);
 	}
 	System.out.println(sum);
 	
@@ -43,7 +43,7 @@ public class addStrNumbs3 {
 	for (int i=0;i<str2.length();i++)   {
 	char c = str2.charAt(i);	
 	if (c!=' ')   {
-	String add = String.valueOf(c);	
+	String add = String.valueOf(c);
 	tSum=tSum+Integer.parseInt(add);
 	}
 	}

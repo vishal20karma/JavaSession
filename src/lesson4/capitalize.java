@@ -16,7 +16,7 @@ public class capitalize {
 	str=str.trim();
 	String result = "";
 	if (str.length()==1)   {   //To check if only one character and do not have 'space' character
-	result = str.toUpperCase();	
+	result=str.toUpperCase();	
 	return result;
 	}
 	else if (str.length()>1)   {   //To check if string greater than one character and do not have single/double/tripple 'spaces' as a character (because already split by space has been used)
@@ -34,7 +34,7 @@ public class capitalize {
 //  For Practice
 	String str = "india is a great country";
 	String fResult = capitalize(str);
-	System.out.println(fResult);
+	System.out.println(fResult.trim());
 	
 	}
 
@@ -42,13 +42,13 @@ public class capitalize {
 	str=str.trim();
 	String result="";
 	if (str.length()==1)   {
-	result=str.toUpperCase();
+	result = str.toUpperCase();	
 	return result;
 	}
-	else if (str.length()>1)   {
-	String [] spls = str.split("\\s");	
+	if (str.length()>1)   {
+	String [] spls = str.split(" ");	
 	for (String s:spls)   {
-	String first = s.substring(0, 1).toUpperCase();
+	String first = s.substring(0, 1).toUpperCase();	
 	String rem = s.substring(1);
 	result=result+first+rem+" ";
 	}

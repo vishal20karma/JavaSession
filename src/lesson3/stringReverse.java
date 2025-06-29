@@ -31,6 +31,7 @@ public class stringReverse {
 	
 //  For Practice
 	StringBuffer sb = new StringBuffer(s);
+//	StringBuilder sb = new StringBuilder(s);
 	System.out.println(sb.reverse());
 	
 	}

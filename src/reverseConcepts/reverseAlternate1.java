@@ -24,12 +24,12 @@ public class reverseAlternate1 {
 //  For Practice
 	String output = "The taerG Indian ymonocE";
 	String str = "The Great Indian Economy";
-	String [] spls = str.split(" ");
 	StringBuilder sb = new StringBuilder();
+	String [] spls = str.split(" ");
 	for (int i=0;i<spls.length;i++)   {
 	String s = spls[i];	
 	if (i%2==1)   {
-	sb.append(new StringBuilder(s).reverse()+" ");	
+	sb.append(new StringBuilder(s).reverse()+" ");
 	}
 	else {
 	sb.append(s+" ");	

@@ -9,17 +9,19 @@ public class oddEven3 {
 
 //  How to check any number is Odd or Even without loop and if/els	
 /*	Scanner s = new Scanner(System.in);
-	System.out.println("Enter the number: ");
-    int n = s.nextInt();
-    String [] result = {"Even", "Odd"};
-    System.out.println(result[n%2]);   */
-		
-//  For Practice
-	Scanner s = new Scanner(System.in);
-	System.out.println("Enter the number: ");
+	System.out.println("Enter the number:");
     int n = s.nextInt();
     String [] result = {"Even", "Odd"};
     System.out.println(result[n%2]);
+    s.close();   */
+		
+//  For Practice
+	Scanner s = new Scanner(System.in);
+	System.out.println("Enter the number:");
+	int n = s.nextInt();
+	String [] result = {"Even", "Odd"};
+	System.out.println(result[n%2]);
+	s.close();
 	
 	System.out.println("**************************************");
 	
@@ -30,7 +32,7 @@ public class oddEven3 {
 	
 //  For Practice
 	int i = 15;
-	String evOrOdd = (i%2==0) ? "Even" : "Odd";
+	String evOrOdd = (i%2==0) ? "Event" : "Odd";
 	System.out.println(evOrOdd);
 	}
 

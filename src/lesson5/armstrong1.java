@@ -28,22 +28,23 @@ public class armstrong1 {
 //  For Practice
 	int arm = 153;
 	armStrong(arm);
-    
+	
 	}
 
-	public static void armStrong(int arm)   {
-	int temp=arm;
-	int sum=0;
-	while (temp!=0)   {
-	int r = temp%10;	
-	sum=sum+r*r*r;
-	temp=temp/10;
-	}
-	if (sum==arm)   {
-	System.out.println(arm+" - is an Armstrong number");	
-	}
-	else {
-	System.out.println(arm+" - is NOT an Armstrong number");	
-	}
-	}
+    public static void armStrong(int arm)   {
+    int temp=arm;
+    int sum = 0;
+    while (temp!=0)   {
+    int r = temp%10;
+    sum=sum+r*r*r;
+    temp=temp/10;
+    }
+    if (sum==arm)   {
+    System.out.println(arm+" -  is an Armstrong number");	
+    }
+    else {
+    System.out.println(arm+" -  is NOT an Armstrong number");	
+    }
+    }
+
 }

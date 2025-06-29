@@ -24,7 +24,7 @@ public class oddEven1 {
 	System.out.println(num[i]+" - is an Even number");	
 	}
 	else {
-	System.out.println(num[i]+" - is an Odd number");	
+	System.out.println(num[i]+" - is NOT an Even number");	
 	}
 	}
 	

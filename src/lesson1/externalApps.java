@@ -16,7 +16,6 @@ public class externalApps {
 //  For Practice
 	Runtime rt = Runtime.getRuntime();
 	Process pr1 = rt.exec("notepad.exe");
-	Thread.sleep(2000);
 	pr1.destroy();
 	
 //  How to launch any saved notepad from computer

@@ -39,7 +39,7 @@ public class arrayToArrayList {
 //  Therefore it cannot directly converted to ArrayList like converting String Array to ArrayList like shown above
 /*	int [] num = {10, -8, -90, 123, 56, 0, -19, 100, 555};
 	ArrayList<Integer> arl = new ArrayList<Integer>();
-	for (int i:num)   {
+	for (Integer i:num)   {
 	arl.add(i);
 	}
 	System.out.println(arl);   */
@@ -47,7 +47,7 @@ public class arrayToArrayList {
 //  For Practice
 	int [] num = {10, -8, -90, 123, 56, 0, -19, 100, 555};
 	ArrayList<Integer> arl = new ArrayList<Integer>();
-	for (int i:num)   {
+	for (Integer i:num)   {
 	arl.add(i);
 	}
 	System.out.println(arl);
