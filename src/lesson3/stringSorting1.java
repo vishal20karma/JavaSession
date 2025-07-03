@@ -1,42 +1,61 @@
 package lesson3;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+
 public class stringSorting1 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-//  How to sort a string without using Arrays.sort()/Collections.sort(), below programming is called Bubble Sort logic
-/*  String s = "programming";	
-	char [] chr = s.toCharArray();   //Converting String to Array
-	for (int i=0;i<chr.length-1;i++)   {   //length-1 has been used as no need of sorting the last character, because its already sorted and pushed in the last, and anything in the last after sorting, no need to sort it again.
-	for (int j=0;j<chr.length-1-i;j++)   {   //length-1-i has been used, if we remove -i, then also it will give the correct result. But when before it already sorted therefore no need to do last iteration.
-	if (chr[j]>chr[j+1])   {
-//  if (chr[j]<chr[j+1])   {   //Use '<' to sort in reverse order	
-	char temp=chr[j];	
-	chr[j]=chr[j+1];
-	chr[j+1]=temp;
-	}
-	}
-	}
-	String sorted = new String(chr);   //Putting the char array into string again.
-	System.out.println("Original: "+s);
-	System.out.println("Sorted: "+sorted);   */
+
+//  How to sort a string by using Arrays.sort();
+/*	String str = "automation";	
+	char [] chr = str.toCharArray();
+	Arrays.sort(chr);	
+	String sorted = new String(chr);
+	System.out.println(sorted);   */
 		
 //  For Practice
-	String s = "programming";
-	char [] chr = s.toCharArray();
-	for (int i=0;i<chr.length-1;i++)   {
-	for (int j=0;j<chr.length-1-i;j++)   {
-	if (chr[j]>chr[j+1])   {
-//  if (chr[j]<chr[j+1])   {   //Use '<' to sort in reverse order		
-	char temp=chr[j];
-	chr[j]=chr[j+1];
-	chr[j+1]=temp;
+	String str = "Automation";
+	char [] chr = str.toLowerCase().toCharArray();
+	Arrays.sort(chr);
+    String sorted = new String(chr);
+	System.out.println(sorted);
+	
+//  How sort a string by using Collections.sort();
+/*	String s = "Programming";
+	char [] c = s.toLowerCase().toCharArray();
+	ArrayList<Character> arl = new ArrayList<Character>();
+	for (int i=0;i<c.length;i++)   {
+	arl.add(c[i]);
 	}
+	Collections.sort(arl);
+	System.out.println(arl);
+//	Collections.reverse(arl);   //Reverse on Sorted ArrayList (Imp-There is difference between reverse and reverse Order)
+//	System.out.println(arl);
+	String rev="";
+	for (Character chrs:arl)   {   //ArrayList can be directly used for enhanced loop by their element type
+	rev=rev+chrs;	
 	}
+	System.out.println(rev);   */
+	
+//  For Practice
+	String s = "Programming";
+	char [] c = s.toLowerCase().toCharArray();
+	ArrayList<Character> arl = new ArrayList<>();
+	for (int i=0;i<c.length;i++)   {
+	arl.add(c[i]);	
 	}
-	String sorted = new String(chr);
-	System.out.println("Original: "+s);
-	System.out.println("Sorted: "+sorted);
+	Collections.sort(arl);
+	System.out.println(arl);
+//	Collections.reverse(arl);
+//	System.out.println(arl);
+	String rev="";
+	for (Character chrs:arl)   {
+	rev=rev+chrs;
+	}
+	System.out.println(rev);
 	
 	}
 }

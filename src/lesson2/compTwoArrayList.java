@@ -11,7 +11,7 @@ public class compTwoArrayList {
 
 //	Comparing two ArrayLists
 //	ArrayList<String> a1 = new ArrayList<String>(Arrays.asList("A","B","C","D","F"));
-	ArrayList<String> a1 = new ArrayList<String>(Arrays.asList("A","B","C","D","F"));
+	ArrayList<String> a1 = new ArrayList<String>(Arrays.asList("A","D","C","B","F"));
 //	ArrayList<String> a2 = new ArrayList<String>(Arrays.asList("A","B","C","D","E"));
 	ArrayList<String> a2 = new ArrayList<String>(Arrays.asList("A","B","C","D","E"));
 //	ArrayList<String> a3 = new ArrayList<String>(Arrays.asList("A","B","C","D","F"));
