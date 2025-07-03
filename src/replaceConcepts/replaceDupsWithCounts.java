@@ -29,6 +29,7 @@ public class replaceDupsWithCounts {
 
 //  For Practice - Output-3u2om32ic322y
 	String str = "Automatically";
+	str=str.toLowerCase();
 	HashMap<Character, Integer> map = new HashMap<Character, Integer>();
 	for (int i=0;i<str.length();i++)   {
 	char c = str.charAt(i);	
@@ -66,20 +67,19 @@ public class replaceDupsWithCounts {
 	System.out.println(sb);   */
 	
 //  For Practice - Output-1132231113221
-	String s = "Grammatically";
-	s=s.toLowerCase();
+	String strNew = "Grammatically";
+	strNew=strNew.toLowerCase();
 	HashMap<Character, Integer> hm = new HashMap<Character, Integer>();
-	for (int i=0;i<s.length();i++)   {
-	char c = s.charAt(i);	
+	for (int i=0;i<strNew.length();i++)   {
+	char c = strNew.charAt(i);	
 	hm.put(c, hm.getOrDefault(c, 0)+1);
 	}
 	
 	StringBuilder sb = new StringBuilder();
-	for (int j=0;j<s.length();j++)   {
-	char c = s.charAt(j);	
+	for (int j=0;j<strNew.length();j++)   {
+	char c = strNew.charAt(j);	
 	sb.append(hm.get(c));
 	}
 	System.out.println(sb);
-	
 	}
 }

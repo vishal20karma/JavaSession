@@ -29,7 +29,7 @@ public class reverseAlternate3 {
 //  For Practice
 	String output = "ehT Great Indian ymonocE";
 	String str = "The Great Indian Economy";
-	String [] spls = str.split(" ");
+	String [] spls = str.split("\\s");
 	String result="";
 	for (int i=0;i<spls.length;i++)   {
 	String s = spls[i];	
@@ -45,8 +45,7 @@ public class reverseAlternate3 {
 	result=result+s+" ";	
 	}
 	}
-	System.out.println(result.toString().trim());
+	System.out.println(result);
 	
 	}
-
 }

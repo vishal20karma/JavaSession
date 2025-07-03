@@ -13,14 +13,7 @@ public class highestFrequency6 {
 	HashMap<String, Integer> hm = new HashMap<String, Integer>();
 	for (int i=0;i<arl.size();i++)   {
 	String str = arl.get(i);
-	if (hm.containsKey(str))   {
-	int oldFreq = hm.get(str);	
-	int newFreq = oldFreq+1;
-	hm.put(str, newFreq);
-	}
-	else {
-	hm.put(str, 1);	
-	}
+	hm.put(str, hm.getOrDefault(str, 0)+1);
 	}
 	String maxFreq = arl.get(0);
 	String scndMaxFreq = arl.get(0);
@@ -40,14 +33,7 @@ public class highestFrequency6 {
 	HashMap<String, Integer> hm = new HashMap<String, Integer>();
 	for (int i=0;i<arl.size();i++)   {
 	String str = arl.get(i);
-	if (hm.containsKey(str))   {
-	int oldFreq = hm.get(str);	
-	int newFreq = oldFreq+1;
-	hm.put(str, newFreq);
-	}
-	else {
-	hm.put(str, 1);	
-	}
+	hm.put(str, hm.getOrDefault(str, 0)+1);
 	}
 	String maxFreq = arl.get(0);
 	String scndMaxFreq = arl.get(0);

@@ -7,7 +7,7 @@ public class maxNumString2 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-//  How to fin min/max number if having 2 digits whole number in a string		
+//  How to find min/max number if having 2 digits whole number in a string		
 /*	String s = "@abc1hgnh12jhh07joat13lk8lah41";
 	ArrayList<Integer> arl = new ArrayList<Integer>();
 	String num="";
@@ -58,8 +58,8 @@ public class maxNumString2 {
 	arl.add(Integer.parseInt(num));
 	}
 	System.out.println(arl);
-	int min = arl.get(0);
-	int max = arl.get(0);
+	int min=arl.get(0);
+	int max=arl.get(0);
 	for (int j=1;j<arl.size();j++)   {
 	if (arl.get(j)<min)   {
 	min=arl.get(j);	
@@ -68,8 +68,8 @@ public class maxNumString2 {
 	max=arl.get(j);	
 	}
 	}
-	System.out.println("Min number: "+min);
-	System.out.println("Max number: "+max);
+	System.out.println("Minimum number: "+min);
+	System.out.println("Maximum number: "+max);
 	
 	}
 

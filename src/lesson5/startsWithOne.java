@@ -34,7 +34,8 @@ public class startsWithOne {
 //  For Practice
 	int [] number = {67, 1, 12, 23, 21, 10};
 	List<Integer> startsWithOne = getNumberList(number);
-	System.out.println(startsWithOne);
+    System.out.println(startsWithOne);
+	
 	}
 	
 	public static int getFirstDigit(int num)   {
@@ -44,14 +45,15 @@ public class startsWithOne {
 	return num;
 	}
 
-	public static ArrayList<Integer> getNumberList(int [] number)   {
-	ArrayList<Integer> arl = new ArrayList<Integer>();
-	for (int num:number)   {
-	int n = getFirstDigit(num);	
-	if (n==1)   {
-	arl.add(num);	
-	}
-	}
-	return arl;
-	}
+    public static ArrayList<Integer> getNumberList(int [] number)   {
+    ArrayList<Integer> arl = new ArrayList<Integer>();
+    for (int num:number)   {
+    int n = getFirstDigit(num);	
+    if (n==1)   {
+    arl.add(num);	
+    }
+    }
+    return arl;
+    }
+
 }

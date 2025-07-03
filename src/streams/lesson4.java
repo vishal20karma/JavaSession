@@ -22,7 +22,7 @@ public class lesson4 {
 	
 //  For Practice
 	List<String> str = Stream.of("Vikrant","Ravi","Kia","Rohit","Anand")
-	        .filter(s->s.startsWith("R")).collect(Collectors.toList());
+			.filter(s->s.startsWith("R")).collect(Collectors.toList());
 	System.out.println(str.get(0));
 	
 	System.out.println("********************");
@@ -32,7 +32,7 @@ public class lesson4 {
 	values.stream().distinct().sorted().forEach(s->System.out.println(s));   */
 	List<Integer> values = Arrays.asList(3,2,6,7,7,3,1,9);
 	values.stream().distinct().sorted().forEach(s->System.out.println(s));
-	
+		
 	System.out.println("********************");
 	
 /*	List<Integer> sdV = values.stream().distinct().sorted().collect(Collectors.toList());
@@ -42,7 +42,6 @@ public class lesson4 {
 	
 //  For Practice
 	List<Integer> sdV = values.stream().distinct().sorted().collect(Collectors.toList());
-	System.out.println(sdV);
 	sdV.forEach(s->System.out.println(s));
 	System.out.println(sdV.get(2));
 	

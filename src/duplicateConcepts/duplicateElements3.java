@@ -31,7 +31,6 @@ public class duplicateElements3 {
 	for (String s3:s2)   {
 	System.out.println(s3);	
 	}
-	
+
 	}
-	
 }

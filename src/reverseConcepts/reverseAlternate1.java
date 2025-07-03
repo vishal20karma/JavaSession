@@ -29,13 +29,13 @@ public class reverseAlternate1 {
 	for (int i=0;i<spls.length;i++)   {
 	String s = spls[i];	
 	if (i%2==1)   {
-	sb.append(new StringBuilder(s).reverse()+" ");
+	sb.append(new StringBuilder(s).reverse()+" ");	
 	}
 	else {
 	sb.append(s+" ");	
 	}
 	}
-	System.out.println(sb.toString().trim());
+	System.out.println(sb);
 	
 	}
 

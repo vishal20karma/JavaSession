@@ -30,22 +30,22 @@ public class reverseAlternate2 {
 	String output = "The taerG Indian ymonocE With elbalacS Reports derapmoC To dlroW";	
 	String str = "The Great Indian Economy With Scalable Reports Compared To World";
 	String [] spls = str.split(" ");
-	String result="";
+    String result="";
 	for (int i=0;i<spls.length;i++)   {
-	String s = spls[i];	
-	if (i%2==1)   {
-	String rev="";
-	for (int j=s.length()-1;j>=0;j--)   {
-	char c = s.charAt(j);	
-	rev=rev+c;
-	}
-	result=result+rev+" ";
-	}
-	else {
-	result=result+s+" ";	
-	}
-	}
-	System.out.println(result.toString().trim());
+    String s = spls[i];	
+    if (i%2==1)   {
+    String rev="";
+    for (int j=s.length()-1;j>=0;j--)   {
+    char c= s.charAt(j);
+    rev=rev+c;
+    }
+    result=result+rev+" ";
+    }
+    else {
+    result=result+s+" ";	
+    }
+    }
+	System.out.println(result);
 	
 	}
 

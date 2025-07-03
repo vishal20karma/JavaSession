@@ -16,12 +16,11 @@ public class startsWithOneEasy {
 //  For Practice
 	int [] number = {67, 1, 12, 23, 21, 10};
 	for (int i=0;i<number.length;i++)   {
-	String numString = Integer.toString(number[i]);
+	String numString = Integer.toString(number[i]);	
 	if (numString.startsWith("1"))   {
 	System.out.println(numString);	
 	}
 	}
 	
 	}
-
 }

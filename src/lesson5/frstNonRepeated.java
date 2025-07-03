@@ -43,7 +43,7 @@ public class frstNonRepeated {
 	System.out.println("***********************************");
 	
 //  How to find second non repeated character in String
-/*	String str = "Atlantic";
+/*	String str = "Atlantics";
 	str=str.toLowerCase();
 	LinkedHashMap<Character, Integer> map = new LinkedHashMap<Character, Integer>();
 	for (int i=0;i<str.length();i++)   {
@@ -66,7 +66,7 @@ public class frstNonRepeated {
 	}   */
 	
 //  For Practice
-	String str = "Atlantic";
+	String str  = "Atlantics";
 	str=str.toLowerCase();
 	LinkedHashMap<Character, Integer> map = new LinkedHashMap<Character, Integer>();
 	for (int i=0;i<str.length();i++)   {
@@ -77,16 +77,16 @@ public class frstNonRepeated {
 	int count=0;
 	for (Character key:map.keySet())   {
 	if (map.get(key)==1)   {
-	count++;	
+	count++;
 	if (count==2)   {
-	System.out.println(key);	
+	System.out.println(key);
+	break;
 	}
 	}
 	}
 	if (count<2)   {
 	System.out.println("Second non-repeating characters not found");	
 	}
-	
 	}
 
 }

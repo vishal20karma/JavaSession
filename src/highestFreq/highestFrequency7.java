@@ -37,30 +37,25 @@ public class highestFrequency7 {
 		
 //  For Practice
 	ArrayList<Integer> arl = new ArrayList<Integer>(Arrays.asList(1,1,2,2,3,4,5,5,5,5,6,7,9,10,1));
-	HashMap<Integer, Integer> hm = new HashMap<Integer, Integer>();
+	HashMap<Integer, Integer> hm = new HashMap<Integer, Integer>();	
 	for (int i=0;i<arl.size();i++)   {
-	int n = arl.get(i);	
-	if (hm.containsKey(n))   {
-	int oldFreq = hm.get(n);	
-	int newFreq = oldFreq+1;
-	hm.put(n, newFreq);
+	Integer n = arl.get(i);	
+	hm.put(n, hm.getOrDefault(n, 0)+1);
 	}
-	else {
-	hm.put(n, 1);	
-	}
-	}
+	System.out.println(hm);
 	int maxFreq = arl.get(0);
 	int scndMaxFreq = arl.get(0);
-	for (int key:hm.keySet())   {
+	for (Integer key:hm.keySet())   {
 	if (hm.get(key)>hm.get(maxFreq))   {
-	maxFreq = key;	
+	maxFreq=key;	
 	}
 	else if (hm.get(key)>hm.get(scndMaxFreq) && hm.get(key)<hm.get(maxFreq))   {
-	scndMaxFreq = key;	
+	scndMaxFreq=key;	
 	}
 	}
 	System.out.println("Max frequency: "+maxFreq);
 	System.out.println("Second Max frequency: "+scndMaxFreq);
-		
+	
+	
 	}
 }

@@ -16,7 +16,7 @@ public class reverseAlternate4 {
 	int mid1 = spls.length/2;   //Returns exactly mid word if string length is Odd, or returns second mid if string length is Even
 	int mid2 = spls.length/2-1;   //Returns first mid word if string length is Even, also - always used spls.length in this case when trying mid words operations
 	if ((spls.length%2==1 && (i==mid1)
-	|| (spls.length%2==0 && (i==mid1 || i==mid2))))   {
+	        || (spls.length%2==0 && (i==mid1 || i==mid2))))   {
 	sb.append(new StringBuilder(s).reverse()+" ");	
 	}
 	else {
@@ -27,7 +27,7 @@ public class reverseAlternate4 {
 	
 //  For Practice
 	String output = "The Great naidnI ymonocE Policy Rocks"; // or "The Great Indian ymonocE Policy Rocks Always";	
-	String str  = "The Great Indian Economy Policy Rocks Always";
+	String str = "The Great Indian Economy Policy Rocks Always";
 //  String str = "The Great Indian Economy Policy Rocks";
 	String [] spls = str.split(" ");
 	StringBuilder sb = new StringBuilder();
@@ -35,9 +35,9 @@ public class reverseAlternate4 {
 	String s = spls[i];	
 	int mid1 = spls.length/2;
 	int mid2 = spls.length/2-1;
-	if ((spls.length%2==1 && i==mid1)
-	|| (spls.length%2==0 && (i==mid1 || i==mid2)))   {
-	sb.append(new StringBuilder(s).reverse()+" ");
+	if ((spls.length%2==1 && (i==mid1)
+			|| (spls.length%2==0 && (i==mid1 || i==mid2))))   {
+	sb.append(new StringBuilder(s).reverse()+" ");	
 	}
 	else {
 	sb.append(s+" ");	
@@ -46,5 +46,4 @@ public class reverseAlternate4 {
 	System.out.println(sb.toString().trim());
 	
 	}
-
 }

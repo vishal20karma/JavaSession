@@ -17,7 +17,7 @@ public class multiplicationTable {
 	
 //  For Practice
 	for (int i=1;i<=10;i++)   {
-	for (int j=1;j<=5;j++)   {
+	for (int j=1;j<=10;j++)   {
 	System.out.printf("%-2d * %-2d = %-3d |", j,i,(j*i));	
 	}
 	System.out.println();

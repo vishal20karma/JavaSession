@@ -18,7 +18,7 @@ public class replaceAllExceptAlternate1 {
 		
 //  For Practice
 	String str = "K9e5s2h1u";
-	String result="";
+	String result = "";
 	for (int i=0;i<str.length();i++)   {
 	String s = str.substring(i, i+1);	
 	result=result+s;

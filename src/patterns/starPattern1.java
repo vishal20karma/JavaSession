@@ -19,7 +19,7 @@ public class starPattern1 {
 	String str="";
 	for (int i=0;i<s.length();i++)   {
 	char c = s.charAt(i);
-	str=str+c+" ";	
+	str=str+c+" ";
 	System.out.println(str);
 	}
 	
@@ -34,7 +34,7 @@ public class starPattern1 {
 	}   */
 	
 //  For Practice
-	for (int i=0;i<=4;i++)   {
+	for (int i=0;i<5;i++)   {
 	for (int j=0;j<=i;j++)   {
 	System.out.print("* ");	
 	}

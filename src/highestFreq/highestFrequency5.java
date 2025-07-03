@@ -11,14 +11,7 @@ public class highestFrequency5 {
 	HashMap<Integer, Integer> hm = new HashMap<Integer, Integer>();
 	for (int i=0;i<num.length;i++)   {
 	int n = num[i];	
-	if (hm.containsKey(n))   {
-	int oldFreq = hm.get(n);	
-	int newFreq = oldFreq+1;
-	hm.put(n, newFreq);
-	}
-	else {
-	hm.put(n, 1);	
-	}
+	hm.put(n, hm.getOrDefault(n, 0)+1);
 	}
 	int maxFreq = num[0];
 	int scndMaxFreq = num[0];
@@ -38,14 +31,7 @@ public class highestFrequency5 {
 	HashMap<Integer, Integer> hm = new HashMap<Integer, Integer>();
 	for (int i=0;i<num.length;i++)   {
 	int n = num[i];	
-	if (hm.containsKey(n))   {
-	int oldFreq = hm.get(n);	
-	int newFreq = oldFreq+1;
-	hm.put(n, newFreq);
-	}
-	else {
-	hm.put(n, 1);	
-	}
+	hm.put(n, hm.getOrDefault(n, 0)+1);
 	}
 	int maxFreq = num[0];
 	int scndMaxFreq = num[0];

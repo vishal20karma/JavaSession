@@ -16,7 +16,7 @@ public class ABCDPattern1 {
 	}   */
 	
 //  For Practice
-	int alpha = 65;
+	int alpha=65;
 	String s = "";
 	for (int i=0;i<=25;i++)   {
 	s=s+(char)alpha+" ";
@@ -37,7 +37,7 @@ public class ABCDPattern1 {
 	}   */
 	
 //  For Practice
-	int alphb=65;
+	int alphb = 65;
 	for (int i=0;i<=25;i++)   {
 	for (int j=0;j<=i;j++)   {
 	System.out.print((char)alphb+" ");	

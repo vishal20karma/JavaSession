@@ -25,17 +25,18 @@ public class duplicateChar4 {
 //  For Practice
 	String str = "My Greatest Responsibilities";
 	str=str.toLowerCase().replaceAll("\\s", "");
-    HashMap<Character, Integer> map = new HashMap<Character, Integer>();
-    for (int i=0;i<str.length();i++)   {
-    char c = str.charAt(i);	
-    map.put(c, map.getOrDefault(c, 0)+1);
-    }
-    System.out.println(map);
+	HashMap<Character, Integer> map = new HashMap<Character, Integer>();
+	for (int i=0;i<str.length();i++)   {
+	char c = str.charAt(i);	
+	map.put(c, map.getOrDefault(c, 0)+1);
+	}
+	System.out.println(map);
 	for (Character key:map.keySet())   {
 	if (map.get(key)>1)   {
-	System.out.println("Duplicate-"+key+" : "+map.get(key));	
+	System.out.println(key+" : "+map.get(key));	
 	}
 	}
+	
 	
 //  How to get the frequency of all the characters with HashMap	
 /*	String s = "My New Great Responsibilities";

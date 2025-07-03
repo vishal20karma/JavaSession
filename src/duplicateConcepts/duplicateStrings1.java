@@ -7,8 +7,7 @@ public class duplicateStrings1 {
 
 //  'the' and 'most' will print 2 and 4 times respectively	
 /*	String s = "Google is the most popular search engine in the most world. Bing most comes at number two most";
-	String ls = s.toLowerCase();
-	String [] spls = ls.split(" ");
+	String [] spls = s.toLowerCase().split(" ");
 	System.out.println(spls.length);
 	for (int i=0;i<spls.length;i++)   {
 	int count=1;
@@ -25,17 +24,16 @@ public class duplicateStrings1 {
 		
 //  For Practice
 	String s = "Google is the most popular search engine in the most world. Bing most comes at number two most";
-	s=s.toLowerCase();
-	String [] spls = s.split(" ");
+	String [] spls = s.toLowerCase().split(" ");
 	for (int i=0;i<spls.length;i++)   {
-	int count=1;
+	int count=1;	
 	for (int j=i+1;j<spls.length;j++)   {
 	if (spls[i].equals(spls[j]))   {
 	count++;
 	spls[j]="0";
 	}
 	}
-	if (spls[i]!="0" && count>1)   {
+	if (!(spls[i].equals("0")) && count>1)   {
 	System.out.println(spls[i]+" : "+count);	
 	}
 	}

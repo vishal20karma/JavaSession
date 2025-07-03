@@ -15,7 +15,7 @@ public class lesson5 {
 		
 //  For Practice
 	List<Integer> num = Arrays.asList(1,2,3,4,5,6,7,8,9,10);
-	int sumOfAll = num.stream().reduce((a,b)->(a+b)).get();
+	int sumOfAll = num.stream().reduce((a,b)->a+b).get();
 	System.out.println(sumOfAll);
 	
 	System.out.println("************************");
@@ -25,7 +25,7 @@ public class lesson5 {
 	System.out.println(fstFive);   */
 	
 //  For Practice	
-	int fstFive = num.stream().limit(5).reduce((a,b)->(a+b)).get();
+	int fstFive = num.stream().limit(5).reduce((a,b)->a+b).get();
 	System.out.println(fstFive);
 	
 	System.out.println("************************");
@@ -35,7 +35,7 @@ public class lesson5 {
 	System.out.println(skpFstFive);   */
 	
 //  For Practice	
-	int skpFstFive = num.stream().skip(5).reduce((a,b)->(a+b)).get();
+	int skpFstFive = num.stream().skip(5).reduce((a,b)->a+b).get();
 	System.out.println(skpFstFive);
 	
 	}

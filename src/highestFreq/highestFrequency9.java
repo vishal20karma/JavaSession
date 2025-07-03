@@ -42,19 +42,13 @@ public class highestFrequency9 {
 	String [] s = {"2abb3", "klbb1", "3hbg22u", "rr2", "3rb2"};
 	HashMap<Character, Integer> hm = new HashMap<Character, Integer>();
 	for (int i=0;i<s.length;i++)   {
-	str = s[i];	
+	str = s[i].replaceAll("[^0-9]", "");	
 	for (int j=0;j<str.length();j++)   {
-	char c = str.charAt(j);	
-	if (hm.containsKey(c) && Character.isDigit(c))   {
-	int oldFreq = hm.get(c);
-	int newFreq = oldFreq+1;
-	hm.put(c, newFreq);
-	}
-	else {
-	hm.put(c, 1);	
+	char c = str.charAt(j);
+	hm.put(c, hm.getOrDefault(c, 0)+1);
 	}
 	}
-	}
+	System.out.println(hm);
 	char maxFreq = str.charAt(0);
 	char scndMaxFreq = str.charAt(0);
 	for (Character key:hm.keySet())   {
@@ -62,11 +56,11 @@ public class highestFrequency9 {
 	maxFreq=key;	
 	}
 	else if (hm.get(key)>hm.get(scndMaxFreq) && hm.get(key)<hm.get(maxFreq))   {
-	scndMaxFreq=key;
+	scndMaxFreq=key;	
 	}
 	}
-	System.out.println("Max frequency: "+maxFreq);
-	System.out.println("Second Max frequency: "+scndMaxFreq);
+	System.out.println("Maximum frequency: "+maxFreq);
+	System.out.println("Second Maximum frequency: "+scndMaxFreq);
 	
 	}
 

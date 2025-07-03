@@ -2,7 +2,7 @@ package lesson3;
 
 import java.util.ArrayList;
 
-public class integerSorting {
+public class integerSorting1 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -11,6 +11,7 @@ public class integerSorting {
 	for (int i=0;i<num.length-1;i++)   {
 	for (int j=0;j<num.length-1-i;j++)   {
 	if (num[j]>num[j+1])   {
+//  if (num[j]<num[j+1])   {	//Works reverse sorting
 	int temp=num[j];
 	num[j]=num[j+1];
 	num[j+1]=temp;
@@ -27,7 +28,8 @@ public class integerSorting {
 	int [] num = {8,3,1,10,4,5,2,6,9,7};
 	for (int i=0;i<num.length-1;i++)   {
 	for (int j=0;j<num.length-1-i;j++)   {
-	if (num[j]>num[j+1])   {
+	if (num[j]>num[j+1])   {	
+//	if (num[j]<num[j+1])   {   //Works reverse sorting
 	int temp=num[j];
 	num[j]=num[j+1];
 	num[j+1]=temp;

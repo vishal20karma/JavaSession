@@ -27,8 +27,8 @@ public class duplicateChar1 {
 	s=s.toLowerCase().replaceAll("\\s", "");
 	System.out.println(s);
 	char [] c = s.toCharArray();
-	for (int i=0;i<c.length;i++)   {   //c.length or s.length() - both will work
-	int count=1;	
+	for (int i=0;i<c.length;i++)   {
+	int count=1;
 	for (int j=i+1;j<c.length;j++)   {
 	if (c[i]==c[j])   {
 	count++;
@@ -36,7 +36,7 @@ public class duplicateChar1 {
 	}
 	}
 	if (c[i]!='0' && count>1)   {
-	System.out.println(c[i]+"-"+count+"-"+s.indexOf(c[i]));	
+	System.out.println(c[i]+"-"+count+"-"+s.indexOf(c[i]));
 	}
 	}
 	
@@ -65,7 +65,7 @@ public class duplicateChar1 {
 //  For Practice
     String str = "My Great Responsibilities";
     str=str.toLowerCase().replaceAll("\\s", "");
-	System.out.println(str);
+    System.out.println(str);
 	char [] chr = str.toCharArray();
 	for (int i=0;i<chr.length;i++)   {
 	int count=1;
@@ -78,7 +78,7 @@ public class duplicateChar1 {
 	chr[j]='0';
 	}
 	}
-	System.out.println(c[i]+" : "+count);
+	System.out.println(chr[i]+" : "+count);
 	}
 	
 	}
